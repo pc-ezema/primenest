@@ -30,7 +30,7 @@
     <!-- banner area start -->
     @yield("slider")
     <!-- banner area end -->
-
+    @yield("breadcrumb")
     <!-- apartments area start -->
    @yield("main_content")
     <!-- feature Properties area end -->

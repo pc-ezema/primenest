@@ -4,7 +4,9 @@
   {{ config("app.name") }} | About Us
 @endsection
 
-@includeIf("layouts.breadcrumb" , [ "title" => "About Us" , "subtitle" => "About" ] )
+@section("breadcrumb")
+  @includeIf("layouts.breadcrumb" , [ "title" => "About Us" , "subtitle" => "About" ] )
+@endsection
 
 @section("main_content")
 
@@ -270,5 +272,5 @@
         </div>
     </div>
     <!-- client area end -->
-    
+
     @endsection
