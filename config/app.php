@@ -14,6 +14,13 @@ return [
     */
 
     'name' => env('APP_NAME', 'Primenest'),
+    'phone_1' => '(+234) 708 082 9417',
+    'phone_2' => '(+234) 701 737 0898',
+    'email' => 'info@primenest.ng',
+    'address' => '18, Udi Street, Osborne Foreshore, Ikoyi Lagos',
+    'facebook' => '#',
+    'instagram' => 'https://www.instagram.com/primenestng/',
+    'twitter' => 'https://twitter.com/primenestng',
 
     /*
     |--------------------------------------------------------------------------

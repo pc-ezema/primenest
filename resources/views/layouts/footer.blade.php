@@ -10,13 +10,13 @@
                             <span>FOLLOW US</span>
                             <ul class="social-icon">
                                 <li>
-                                    <a href="https://www.facebook.com/codingeek.net/" target="_blank"><i class="fa fa-facebook  "></i></a>
+                                    <a href="{{ config('app.facebook') }}" target="_blank"><i class="fa fa-facebook  "></i></a>
                                 </li>
                                 <li>
-                                    <a href="https://twitter.com/codingeeknet" target="_blank"><i class="fa fa-twitter  "></i></a>
+                                    <a href="{{ config('app.twitter') }}" target="_blank"><i class="fa fa-twitter  "></i></a>
                                 </li>
                                 <li>
-                                    <a href="https://www.linkedin.com/company/codingeek/about/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                    <a href="{{ config('app.instagram') }}" target="_blank"><i class="fa fa-linkedin"></i></a>
                                 </li>
                             </ul>
                         </div>  
@@ -27,37 +27,35 @@
                 <div class="row">
                     <div class="col-lg-3 col-sm-6">
                         <div class="widget widget_nav_menu">
-                            <h4 class="widget-title">Popular Searches</h4>
-                            <ul>
-                                <li><a href="index.html">Apartment for Rent</a></li>
-                                <li><a href="about.html">Apartment Low to hide</a></li>
-                                <li><a href="#">Offices for Buy</a></li>
-                                <li><a href="#">Offices for Rent</a></li>
-                            </ul>
+                            <h4 class="widget-title">About Us</h4>
+                            <p> At Prime Nest we work to give every Nigerian a realistic opportunity to own a home of their dreams.  </p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="widget widget_nav_menu">
-                            <h4 class="widget-title">Homepress Markets</h4>
-                            <ul>
-                                <li><a href="index.html">Los Angeles Offices</a></li>
-                                <li><a href="about.html">Las Vegas Apartment</a></li>
-                                <li><a href="#">Sacramento Townhome</a></li>
-                                <li><a href="#">San Francisco Offices</a></li>
-                            </ul>
-                        </div>
-                    </div>
+
                     <div class="col-lg-3 col-sm-6">
                         <div class="widget widget_nav_menu">
                             <h4 class="widget-title">Quick Links</h4>
                             <ul>
-                                <li><a href="index.html">Pricing Plans</a></li>
-                                <li><a href="about.html">Our Services</a></li>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Contact Us</a></li>
+                                 <li><a href="/about-us">About Us</a></li>
+                                <li><a href="/property">Properties</a></li>
+                                <li><a href="/faq">FAQ</a></li>
+                                
+                                <li><a href="/contact-us">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="widget widget_nav_menu">
+                            <h4 class="widget-title">Featured Links</h4>
+                            <ul>
+                                <li><a href="https://blog.primenest.ng/">Blog</a></li>
+                                <!-- <li><a href="about.html">Las Vegas Apartment</a></li>
+                                <li><a href="#">Sacramento Townhome</a></li>
+                                <li><a href="#">San Francisco Offices</a></li> -->
+                            </ul>
+                        </div>
+                    </div>
+                    
                     <div class="col-lg-3 col-sm-6">
                         <form class="widget widget-subscribe">
                             <div class="rld-single-input">
@@ -72,7 +70,7 @@
                 </div>
             </div>
             <div class="copy-right text-center">
-                © Copyright Nexus Property Made with  by <a href="https://codingeek.net/" target="_blank"><i class="fa fa-heart"></i><span>Codingeek.</span></a>
+                Copyright ©{{ date("Y") }} <a href="/" target="_blank"><span> Prime Nest Solutions </span></a> , All rights reserved
             </div>
         </div>
     </footer>
