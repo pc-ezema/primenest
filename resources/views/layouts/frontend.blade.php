@@ -8,13 +8,13 @@
     <title> @yield("title") </title>
 
     <!-- favicon -->
-    <link rel=icon href=assets/img/favicon.png sizes="20x20" type="image/png">
+    <link rel=icon href=/assets/img/favicon.ico sizes="20x20" type="image/ico">
     <!-- Vendor Stylesheet -->
-    <link rel="stylesheet" href="assets/css/vendor.css">
+    <link rel="stylesheet" href="/assets/css/vendor.css">
     <!-- Main Stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <!-- responsive Stylesheet -->
-    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
 </head>
 <body>
 

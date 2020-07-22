@@ -44,7 +44,7 @@ Version: 1.0.0
 -----------------*/
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Poppins:200,300,400,400i,500,600,700i&display=swap");
 :root {
-  --main-color-one: #FDA94F;
+  --main-color-one: #B68CB8;
   --main-color-two: #FF6E63;
   --heading-color: #101425;
   --paragraph-color: #666;
@@ -2793,7 +2793,7 @@ ul {
       .single-feature .details .info-list li {
         display: inline-block;
         list-style: none;
-        margin-right: 12px; }
+        margin-right: 10px; }
         .single-feature .details .info-list li img,
         .single-feature .details .info-list li i {
           margin-right: 4px;
@@ -3106,7 +3106,7 @@ ul {
 .single-floor-list {
   margin-bottom: 30px; }
   .single-floor-list .media-left {
-    background: #FFDEC5;
+    background: rgba(161, 144, 162, 0.19);
     border-radius: 5px;
     height: 40px;
     width: 40px;

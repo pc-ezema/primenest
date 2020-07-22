@@ -9,10 +9,10 @@
                     </button>
                 </div>
                 <div class="logo">
-                    <a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
+                    <a href="/"><img src="/assets/img/primenestlogo.png" alt="logo"></a>
                 </div>
                 <div class="nav-right-part nav-right-part-mobile">
-                    <a class="btn btn-yellow" href="add-new-property.html">ADD LISTING <span class="right"><i class="la la-plus"></i></span></a>
+                    <a class="btn btn-yellow" href="/application">APPLICATION FORM <span class="right"><i class="la la-plus"></i></span></a>
                 </div>
                 <div class="collapse navbar-collapse" id="realdeal_main_menu">
                     <ul class="navbar-nav menu-open">
@@ -24,7 +24,7 @@
                     </ul>
                 </div>
                 <div class="nav-right-part nav-right-part-desktop">
-                    <a class="btn btn-yellow" href="add-new-property.html">ADD LISTING <span class="right"><i class="la la-plus"></i></span></a>
+                    <a class="btn btn-yellow" href="/application">APPLICATION FORM <span class="right"><i class="la la-plus"></i></span></a>
                 </div>
             </div>
         </nav>

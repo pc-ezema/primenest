@@ -3,7 +3,7 @@
             <div class="footer-top">
                 <div class="row">
                     <div class="col-sm-4">
-                        <a class="footer-logo" href="#"><img src="assets/img/footer-logo.png" alt="logo"></a>
+                        <a class="footer-logo" href="#"><img src="assets/img/primenestlogo.png" alt="logo"></a>
                     </div>
                     <div class="col-sm-8">
                         <div class="footer-social text-sm-right">
@@ -16,7 +16,7 @@
                                     <a href="{{ config('app.twitter') }}" target="_blank"><i class="fa fa-twitter  "></i></a>
                                 </li>
                                 <li>
-                                    <a href="{{ config('app.instagram') }}" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                    <a href="{{ config('app.instagram') }}" target="_blank"><i class="fa fa-instagram"></i></a>
                                 </li>
                             </ul>
                         </div>  

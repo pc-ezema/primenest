@@ -7,7 +7,15 @@ use Illuminate\Http\Request;
 
 class homepageController extends Controller
 {
+    public function index(){
+
+        $datas = \App\Repositories\Pick::getDatabase();
+
+        return view('welcome')->with('datas',$datas);
+    }
     public function aboutUs(){
+        
+
         return view("about-us");
     }
 
