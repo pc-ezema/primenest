@@ -19,7 +19,7 @@
 <body>
 
     <!-- preloader area start -->
-    @includeIf("layouts.preloader")
+    <!-- @includeIf("layouts.preloader") -->
     <!-- preloader area end -->
     <div class="body-overlay" id="body-overlay"></div>
 
