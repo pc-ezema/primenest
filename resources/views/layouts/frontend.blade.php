@@ -45,7 +45,8 @@
     </div>
     <!-- back to top area end -->
 
-
+    <!--  chat plugin  -->
+    @includeIf("layouts.tawk" )
     <!-- all plugins here -->
     <script src="assets/js/vendor.js"></script>
     <!-- main js  -->
