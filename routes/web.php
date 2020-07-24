@@ -22,9 +22,15 @@ Route::get("/faq" , "homepageController@faq");
 Route::get("/contact-us" , "homepageController@contactUs");
 Route::get("/application" , "homepageController@application");
 
+Route::post('/application' , 'homepageController@applicationConfirm');
+
 
 
 Route::post("/contact-us" , "homepageController@contactusConfirm");
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
 
 Auth::routes();
 

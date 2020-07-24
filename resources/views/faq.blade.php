@@ -1,7 +1,7 @@
 @extends("layouts.frontend")
 
 @section("title")
-  {{ config("app.name") }} | Properties
+  {{ config("app.name") }} | Frequently Asked Questions
 @endsection
 
 @section("breadcrumb")
@@ -16,68 +16,30 @@
                 <div class="col-lg-6 mb-5 mb-lg-0">
                     <div class="section-title">
                         <h2 class="title">Frequently <br>asked questions</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis enim vel leo laoreet, quis sodales purus blandit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
                     </div>
                     <div class="accordion" id="accordion">
-                        <!-- single accordion -->
-                        <div class="single-accordion card">
-                            <div class="card-header" id="headingOne">
-                                <h2 class="mb-0">
-                                    <button class="btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Lorem ipsum dolor sit amet, consectetur</button>
-                                </h2>
-                            </div>
-                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                                <div class="card-body">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis enim vel leo laoreet, quis sodales purus blandit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                                </div>
-                            </div>
-                        </div>
-                        <!-- single accordion -->
-                        <div class="single-accordion card">
-                            <div class="card-header" id="headingTwo">
-                                <h2 class="mb-0">
-                                    <button class="btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">Consectetur adipiscing elit. Sed lobortis</button>
-                                </h2>
-                            </div>
-                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                                <div class="card-body">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis enim vel leo laoreet, quis sodales purus blandit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                                </div>
-                            </div>
-                        </div>
-                        <!-- single accordion -->
-                        <div class="single-accordion card">
-                            <div class="card-header" id="headingThree">
-                                <h2 class="mb-0">
-                                    <button class="btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseOne">Lorem ipsum dolor sit amet, consectetur</button>
-                                </h2>
-                            </div>
-                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                                <div class="card-body">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis enim vel leo laoreet, quis sodales purus blandit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                                </div>
-                            </div>
-                        </div>
+                    @foreach($datas as $data)
                         <!-- single accordion -->
                         <div class="single-accordion card">
                             <div class="card-header" id="headingFour">
                                 <h2 class="mb-0">
-                                    <button class="btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne">Lorem ipsum dolor sit amet, consectetur</button>
+                                    <button class="btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne"> {{ $data->question}} </button>
                                 </h2>
                             </div>
                             <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                                 <div class="card-body">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis enim vel leo laoreet, quis sodales purus blandit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                    {{ $data->answer }}
                                 </div>
                             </div>
                         </div>
                         <!-- single accordion end -->
+                    @endforeach
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-6 offset-xl-1">
                     <div class="shape-image-list-wrap">
                         <div class="shape-image-list left-top">
-                            <img src="assets/img/others/6.png" alt="img">
+                            <img src="/assets/img/faq1.png" alt="img">
                         </div>
                     </div>
                 </div>

@@ -11,6 +11,21 @@ class Pick{
 
         
        (object) [ 
+
+        // 1
+
+           'estate' => (object) [
+               'name' => 'Primenest Estate',
+               'code' => 'primenest',
+            ],
+
+            // 2
+
+           'estate' => (object) [
+              'name' => 'Lilycourt Estate',
+               'code' => 'lilycourt',
+            ],
+            
             'estate_code' => 'primenest', 
             'name' => 'Bricks Court Abeokuta',
             'price' => '6000000',

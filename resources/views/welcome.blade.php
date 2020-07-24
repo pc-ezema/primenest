@@ -262,14 +262,14 @@
                         </div>
                         <div class="details">
                             <a href="#" class="feature-logo">
-                                <img src="assets/img/icons/l3.png" alt="icons">
+                                <img src="/assets/img/icons/l3.png" alt="icons">
                             </a>
                             <h6 class="title"><a href="#">{{ $data->name }}</a></h6>
                             <h6 class="price"><span>&#8358;</span>{{ number_format($data->price) }}/unit</h6>
                             <ul class="info-list">
                                 <li><i class="fa fa-bed"></i> {{ $data->keypoint->bedroom }} Bed</li>
                                 <li><i class="fa fa-bath"></i> {{ $data->keypoint->bathroom }} Bath</li>
-                                <li><img src="assets/img/icons/7.png" alt="img"> {{ $data->keypoint->area }} sqm.</li>
+                                <li><img src="/assets/img/icons/7.png" alt="img"> {{ $data->keypoint->area }} sqm.</li>
                             </ul>
                             <ul class="contact-list">
                                 <li><a class="phone" href="#"><i class="fa fa-phone"></i></a></li>

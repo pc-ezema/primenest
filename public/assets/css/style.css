@@ -987,7 +987,7 @@ ul {
       margin-right: 6px; }
     .rld-list-style li i {
       margin-right: 6px;
-      background: rgba(253, 169, 79, 0.1);
+      background: rgba(161, 144, 162, 0.19);
       color: var(--main-color-one);
       height: 24px;
       width: 24px;
@@ -2493,6 +2493,8 @@ ul {
       border: 1px solid var(--main-color-one); }
 
 .rld-single-select .single-select {
+  margin-top: 10px;
+  background-color: #f9fafa;
   height: 48px;
   line-height: 47px;
   width: 100%;
