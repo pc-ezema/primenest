@@ -13,7 +13,7 @@
     <div class="properties-area pd-top-92">
         <div class="container">
             <div class="section-title">
-                <h2 class="title">United Stated</h2>
+                <h2 class="title">Prime Nest Estate</h2>
             </div>
             <div class="row">
             @foreach($datas as $data)
