@@ -35,6 +35,8 @@
                         <div class="rld-single-input">
                             <textarea rows="10" placeholder="Message" name="message"></textarea>
                         </div>
+                        {!! NoCaptcha::renderJs() !!}
+                        {!! NoCaptcha::display() !!}
                         <div class="btn-wrap text-center">
                             <button class="btn btn-yellow">Submit</button>
                         </div>
