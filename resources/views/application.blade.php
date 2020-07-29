@@ -31,20 +31,25 @@
                         <div class="rld-single-select">
                            
                             <select class="select single-select" name="property_type">
-                                  <option> Property Type </option>
+                                  <option value=""> Property Type </option>
                                 <option value="2 bedroom">2 Bedroom</option>
                                 <option value="3 bedroom">3 Bedroom</option>
                             </select>
                         </div>
                         <div class="rld-single-select">
                             
-                            <select class="select single-select" name="payment_option">
-                                <option>Payment Option </option>
+                            <select class="select single-select_1" name="payment_option">
+                                <option value= "">Payment Option </option>
                                 <option value="outright">Outright</option>
                                 <option value="mortgage">Mortgage</option>
                                 <option value="instalment">Instalment</option>
                             </select>
                         </div>
+
+                            {!! NoCaptcha::renderJs() !!}
+                            {!! NoCaptcha::display() !!}
+
+                            
                         <div class="btn-wrap">
                             <button class="btn btn-yellow"> APPLY </button>
                         </div>

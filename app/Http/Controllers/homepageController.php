@@ -84,6 +84,7 @@ class homepageController extends Controller
     }
 
     public function applicationConfirm(){
+        // return request()->all();
         /*  validate the input */
            $this->validate( request() , array(
              'surname' => 'required',
@@ -91,6 +92,7 @@ class homepageController extends Controller
              'phone' => 'required',
              'property_type' => 'required',
              'payment_option' => 'required',
+             'g-recaptcha-response' => 'required|captcha',
            ));
 
         //    return request();
