@@ -1,4 +1,4 @@
-<div class="breadcrumb-area jarallax" style="background-image:url(assets/img/bg/4.png);">
+<div class="breadcrumb-area jarallax" style="background-image:url(assets/img/breadcrumb.png);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">

@@ -15,24 +15,31 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="contact-page-map">
-                        <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d60021.82409444856!2d-122.40118071595978!3d37.7546723469594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1577786376747!5m2!1sen!2sbd" style="border:0;" allowfullscreen=""></iframe>
+                    <iframe src="https://maps.google.com/maps?q=18%2C%20Udi%20Street%2C%20Osborne%20Foreshore%2C%20Ikoyi%20Lagos&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" allowfullscreen="allowfullscreen" class="w-100" style="border: 0px;"></iframe>
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <form class="contact-form-wrap contact-form-bg">
+                @includeIf('layouts.error_template')
+                    <form class="contact-form-wrap contact-form-bg" action="/contact-us" method="post">
+                        {{ csrf_field() }}
                         <h4>Contact Now</h4>
                         <div class="rld-single-input">
-                            <input type="text" placeholder="Name">
+                            <input type="text" placeholder="Name" name="fullname">
                         </div>
                         <div class="rld-single-input">
-                            <input type="text" placeholder="Phone">
+                            <input type="text" placeholder="Phone" name="phone">
                         </div>
                         <div class="rld-single-input">
-                            <input type="text" placeholder="Phone">
+                            <input type="text" placeholder="Email" name="email">
                         </div>
                         <div class="rld-single-input">
-                            <textarea rows="10" placeholder="Message"></textarea>
+                            <textarea rows="10" placeholder="Message" name="message"></textarea>
                         </div>
+                        <div class="rld-single-input">
+                            {!! NoCaptcha::renderJs() !!}
+                            {!! NoCaptcha::display() !!}
+                        </div>
+                        
                         <div class="btn-wrap text-center">
                             <button class="btn btn-yellow">Submit</button>
                         </div>
@@ -40,29 +47,23 @@
                 </div>
             </div>
             <div class="row pd-top-92">
-                <div class="col-xl-3 col-sm-6">
+                <div class="col-xl-4 col-sm-6">
                     <div class="single-contact-info">
                         <p><i class="fa fa-phone"></i>Call Us:</p>
-                        <h5>(000) 111 222 333</h5>
+                        <h5>{{ config('app.phone_1') }}</h5>
+                        <h5>{{ config('app.phone_2') }}</h5>
                     </div>
                 </div>
-                <div class="col-xl-3 col-sm-6">
-                    <div class="single-contact-info">
-                        <p><i class="fa fa-fax"></i>Fax:</p>
-                        <h5>(000) 111 222 333</h5>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-sm-6">
+                <div class="col-xl-4 col-sm-6">
                     <div class="single-contact-info">
                         <p><i class="fa fa-envelope"></i>Have any Question?</p>
-                        <h5>example@codingeek.net</h5>
+                        <h5> <h5>{{ config('app.email') }}</h5></h5>
                     </div>
                 </div>
-                <div class="col-xl-3 col-sm-6">
+                <div class="col-xl-4 col-sm-6">
                     <div class="single-contact-info">
                         <p><i class="fa fa-phone"></i>Address</p>
-                        <h5>216 Trinity Ave, Pasadena,</h5>
-                        <h5>CA 95046, United States</h5>
+                        <h5> <h5>{{ config('app.address') }}</h5></h5>
                     </div>
                 </div>
             </div>

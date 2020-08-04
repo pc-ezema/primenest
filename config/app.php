@@ -14,6 +14,13 @@ return [
     */
 
     'name' => env('APP_NAME', 'Primenest'),
+    'phone_1' => '(+234) 708 082 9417',
+    'phone_2' => '(+234) 701 737 0898',
+    'email' => 'info@primenest.ng',
+    'address' => '18, Udi Street, Osborne Foreshore, Ikoyi Lagos',
+    'facebook' => '#',
+    'instagram' => 'https://www.instagram.com/primenestng/',
+    'twitter' => 'https://twitter.com/primenestng',
 
     /*
     |--------------------------------------------------------------------------
@@ -67,7 +74,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'Africa/Lagos',
 
     /*
     |--------------------------------------------------------------------------
@@ -161,6 +168,7 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        
 
         /*
          * Package Service Providers...
@@ -171,9 +179,12 @@ return [
          */
         App\Providers\AppServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
+
+        Anhskohbo\NoCaptcha\NoCaptchaServiceProvider::class,
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        
 
     ],
 
@@ -226,6 +237,8 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+
+        'NoCaptcha' => Anhskohbo\NoCaptcha\Facades\NoCaptcha::class,
 
     ],
 

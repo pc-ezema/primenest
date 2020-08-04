@@ -8,18 +8,18 @@
     <title> @yield("title") </title>
 
     <!-- favicon -->
-    <link rel=icon href=assets/img/favicon.png sizes="20x20" type="image/png">
+    <link rel=icon href=/assets/img/favicon.ico sizes="20x20" type="image/ico">
     <!-- Vendor Stylesheet -->
-    <link rel="stylesheet" href="assets/css/vendor.css">
+    <link rel="stylesheet" href="/assets/css/vendor.css">
     <!-- Main Stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <!-- responsive Stylesheet -->
-    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
 </head>
 <body>
 
     <!-- preloader area start -->
-    @includeIf("layouts.preloader")
+    <!-- @includeIf("layouts.preloader") -->
     <!-- preloader area end -->
     <div class="body-overlay" id="body-overlay"></div>
 
@@ -45,7 +45,8 @@
     </div>
     <!-- back to top area end -->
 
-
+    <!--  chat plugin  -->
+    @includeIf("layouts.tawk" )
     <!-- all plugins here -->
     <script src="assets/js/vendor.js"></script>
     <!-- main js  -->

@@ -13,13 +13,25 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
+Route::get('/' , 'homepageController@index');
 Route::get("/about-us" , "homepageController@aboutUs");
 Route::get("/property" , "homepageController@property");
 Route::get("/property-detail" , "homepageController@propertyDetail");
 Route::get("/faq" , "homepageController@faq");
 Route::get("/contact-us" , "homepageController@contactUs");
 Route::get("/application" , "homepageController@application");
+
+Route::post('/application' , 'homepageController@applicationConfirm');
+
+
+
+Route::post("/contact-us" , "homepageController@contactusConfirm");
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

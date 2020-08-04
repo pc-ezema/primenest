@@ -9,72 +9,14 @@
 @endsection
 
 @section("main_content")
-<div class="apartments-area pd-top-100">
-        <div class="container">
-            <div class="apartments-slider">
-                <div class="item">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-6 offset-lg-2">
-                            <div class="thumb">
-                                <h2 class="title">Jason Landville Apartments</h2>
-                                <img src="assets/img/others/2.png" alt="img">
-                            </div>
-                        </div>
-                        <div class="col-lg-3 align-self-center">
-                            <div class="details">
-                                <h2 class="title">Jason Landville Apartments</h2>
-                                <h4 class="mb-0"><del>$750.00</del></h4>
-                                <h3>$750.00</h3>
-                                <h5 class="sub-title">109 Oxford St Soho:</h5>
-                                <span><i class="fa fa-arrows-alt"></i>52m2</span>
-                                <h5 class="sub-title">Structure:</h5>
-                                <span><i class="fa fa-bed"></i>3 Bedroom</span>
-                                <h5 class="sub-title">Accommodation:</h5>
-                                <span><i class="fa fa-bath"></i>Furnished</span>
-                                <h5 class="sub-title">Heating:</h5>
-                                <span><i class="fa fa-bath"></i>Floor Heating</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-6">
-                            <div class="thumb">
-                                <h2 class="title">Vegas Landville Apartments</h2>
-                                <img src="assets/img/others/3.png" alt="img">
-                            </div>
-                        </div>
-                        <div class="col-lg-3 align-self-center">
-                            <div class="details">
-                                <h2 class="title">Vegas Landville Apartments</h2>
-                                <h4 class="mb-0"><del>$750.00</del></h4>
-                                <h3>$750.00</h3>
-                                <h5 class="sub-title">109 Oxford St Soho:</h5>
-                                <span><i class="fa fa-arrows-alt"></i>52m2</span>
-                                <h5 class="sub-title">Structure:</h5>
-                                <span><i class="fa fa-bed"></i>3 Bedroom</span>
-                                <h5 class="sub-title">Accommodation:</h5>
-                                <span><i class="fa fa-bath"></i>Furnished</span>
-                                <h5 class="sub-title">Heating:</h5>
-                                <span><i class="fa fa-bath"></i>Floor Heating</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- apartments area end -->
-
     <!-- about area end -->
     <div class="about-area pd-top-100 pd-bottom-70">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 align-self-center">
                     <div class="section-title mb-lg-0">
-                        <h2 class="title">About <br>Luxurius Home</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel eros quam. Sed sit amet dictum est, at fringilla enim. Praesent varius risus a convallis placerat. Aenean hendrerit lorem auctor ex condimentum pulvinar. Donec ornare imperdiet eros, varius eleifend sapien pharetra gravida. Sed sed tortor congue, tincidunt eros eu, egestas leo. Etiam turpis nunc, sagittis nec mauris vitae,</p>
+                        <h2 class="title">Comfort and <br>Elegance</h2>
+                        <p>Owning a property with us improves your quality of life and gives you peace of mind. Experience real comfort and safety in our fully furnished, roomy bungalows, keeping in mind that your perimeter and general areas of your interior are under 24/7 CCTV surveillance. Enjoy a treated water system, a central sewage system, and uninterrupted electricity. Get absorbed in the picturesque landscape as you drive through the boulevard or saunter along the paved walkways.</p>
                         <a class="btn-view-all-2" href="#">Learn More <i class="la la-long-arrow-right"></i></a>
                     </div>
                 </div>
@@ -83,7 +25,7 @@
                         <div class="col-md-4 col-sm-6">
                             <a class="cat-single text-center" href="#">
                                 <i class="fa fa-bed"></i>
-                                <p>05 Bed</p>
+                                <p>03 Bed</p>
                             </a>
                         </div>
                         <div class="col-md-4 col-sm-6">
@@ -95,25 +37,20 @@
                         <div class="col-md-4 col-sm-6">
                             <a class="cat-single text-center" href="#">
                                 <img src="assets/img/icons/14.png" alt="icons">
-                                <p>01 Kitchens</p>
+                                <p>01 Kitchen</p>
                             </a>
                         </div>
-                        <div class="col-md-4 col-sm-6">
-                            <a class="cat-single text-center" href="#">
-                                <img src="assets/img/icons/15.png" alt="icons">
-                                <p>Drawing room</p>
-                            </a>
-                        </div>
+                        
                         <div class="col-md-4 col-sm-6">
                             <a class="cat-single text-center" href="#">
                                 <img src="assets/img/icons/16.png" alt="icons">
-                                <p>1890 sq. ft</p>
+                                <p>300 m2</p>
                             </a>
                         </div>
                         <div class="col-md-4 col-sm-6">
                             <a class="cat-single text-center" href="#">
                                 <i class="fa fa-car"></i>
-                                <p>01 Garage</p>
+                                <p>01 Parking</p>
                             </a>
                         </div>
                     </div>
@@ -131,30 +68,30 @@
                     <div class="row">
                         <div class="col-xl-6 col-lg-7">
                             <div class="thumb">
-                                <img src="assets/img/others/4.png" alt="img">
+                                <img src="/assets/img/hom.png" alt="img">
                             </div>
                         </div>
                         <div class="col-lg-6 align-self-end">
                             <div class="details">
                                 <span>01</span>
-                                <h6>Enjoyable Spacings</h6>
+                                <h6>Special Features</h6>
                                 <h2 class="title">Room Dimensions</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel eros quam. Sed sit amet dictum est, at fringilla enim. Praesent varius risus a convallis placerat. Aenean hendrerit lorem auctor ex </p>
+                                <p> Each of our bungalows cover a total dimension of 300 square metres. With luxurious en-suite bedrooms and an airy living room and kitchen area, you are sure to maximise space and avoid clutter. </p>
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <ul class="rld-list-style mb-3 mb-sm-0">
                                             <li><i class="fa fa-check"></i> Full Furnished</li>
-                                            <li><i class="fa fa-check"></i> Royal touch Point</li>
-                                            <li><i class="fa fa-check"></i> Minimal Decored</li>
-                                            <li><i class="fa fa-check"></i> Tow way Road</li>
+                                            <li><i class="fa fa-check"></i> 24/7 CCTV Surveillance</li>
+                                            <li><i class="fa fa-check"></i> Uninterrupted power</li>
+                                            <li><i class="fa fa-check"></i> Treated water system </li>
                                         </ul>
                                     </div>
                                     <div class="col-sm-6">
                                         <ul class="rld-list-style">
-                                            <li><i class="fa fa-check"></i> Perfect land</li>
-                                            <li><i class="fa fa-check"></i> Awesome view</li>
-                                            <li><i class="fa fa-check"></i> 24/7 Security</li>
-                                            <li><i class="fa fa-check"></i> Small Garden</li>
+                                            <li><i class="fa fa-check"></i>Central sewage system </li>
+                                            <li><i class="fa fa-check"></i> Ease of access  </li>
+                                            <li><i class="fa fa-check"></i> Defined drive </li>
+                                            <li><i class="fa fa-check"></i> Paved sidewalks </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -162,76 +99,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="item">
-                    <div class="row">
-                        <div class="col-xl-6 col-lg-7">
-                            <div class="thumb">
-                                <img src="assets/img/others/2.png" alt="img">
-                            </div>
-                        </div>
-                        <div class="col-lg-6 align-self-end">
-                            <div class="details">
-                                <span>01</span>
-                                <h6>Enjoyable Spacings</h6>
-                                <h2 class="title">Room Dimensions</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel eros quam. Sed sit amet dictum est, at fringilla enim. Praesent varius risus a convallis placerat. Aenean hendrerit lorem auctor ex </p>
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <ul class="rld-list-style mb-3 mb-sm-0">
-                                            <li><i class="fa fa-check"></i> Full Furnished</li>
-                                            <li><i class="fa fa-check"></i> Royal touch Point</li>
-                                            <li><i class="fa fa-check"></i> Minimal Decored</li>
-                                            <li><i class="fa fa-check"></i> Tow way Road</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <ul class="rld-list-style">
-                                            <li><i class="fa fa-check"></i> Perfect land</li>
-                                            <li><i class="fa fa-check"></i> Awesome view</li>
-                                            <li><i class="fa fa-check"></i> 24/7 Security</li>
-                                            <li><i class="fa fa-check"></i> Small Garden</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="row">
-                        <div class="col-xl-6 col-lg-7">
-                            <div class="thumb">
-                                <img src="assets/img/others/3.png" alt="img">
-                            </div>
-                        </div>
-                        <div class="col-lg-6 align-self-end">
-                            <div class="details">
-                                <span>01</span>
-                                <h6>Enjoyable Spacings</h6>
-                                <h2 class="title">Room Dimensions</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel eros quam. Sed sit amet dictum est, at fringilla enim. Praesent varius risus a convallis placerat. Aenean hendrerit lorem auctor ex </p>
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <ul class="rld-list-style mb-3 mb-sm-0">
-                                            <li><i class="fa fa-check"></i> Full Furnished</li>
-                                            <li><i class="fa fa-check"></i> Royal touch Point</li>
-                                            <li><i class="fa fa-check"></i> Minimal Decored</li>
-                                            <li><i class="fa fa-check"></i> Tow way Road</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <ul class="rld-list-style">
-                                            <li><i class="fa fa-check"></i> Perfect land</li>
-                                            <li><i class="fa fa-check"></i> Awesome view</li>
-                                            <li><i class="fa fa-check"></i> 24/7 Security</li>
-                                            <li><i class="fa fa-check"></i> Small Garden</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
+               
             </div>
             <div class="ap2-slider-controls">
                 <!--slider-nav-->
@@ -255,11 +124,11 @@
     <!-- call to action area start -->
     <div class="call-to-action-area pd-top-100">
         <div class="container">
-            <div class="call-to-action style-two" style="background-image: url(assets/img/bg/1.png);">
+            <div class="call-to-action style-two" style="background-image: url(/assets/img/afford.png);">
                 <div class="cta-content">
-                    <h3 class="title">Contact With Our Certificate Agent</h3>
-                    <a class="btn btn-white mb-2 mb-sm-0 mr-2" href="#">Make a Call</a>
-                    <a class="btn btn-white mb-2 mb-sm-0 mr-xl-3 mr-0" href="#">Get Appoinment</a>
+                    <h3 class="title">Contact With Our Property Agent</h3>
+                    <a class="btn btn-white mb-2 mb-sm-0 mr-2" href="/contact-us">Make a Call</a>
+                    <a class="btn btn-white mb-2 mb-sm-0 mr-xl-3 mr-0" href="/property">Get a Property</a>
                 </div>
             </div>
         </div>
@@ -270,27 +139,27 @@
     <div class="gallery-area pd-top-92">
         <div class="container">
             <div class="section-title">
-                <h2 class="title">Photo Galary</h2>
+                <h2 class="title">Photo Gallery</h2>
             </div>
             <div class="row">
                 <div class="col-lg-7">
                     <div class="gallery-thumb">
-                        <img src="assets/img/gallery/1.png" alt="img">
+                        <img src="/assets/img/gal1.png" alt="img">
                     </div>
                 </div>
                 <div class="col-lg-5">
                     <div class="gallery-thumb">
-                        <img src="assets/img/gallery/2.png" alt="img">
+                        <img src="/assets/img/gal2.png" alt="img">
                     </div>
                     <div class="row">   
                         <div class="col-sm-7">  
                             <div class="gallery-thumb">
-                                <img src="assets/img/gallery/3.png" alt="img">
+                                <img src="/assets/img/gal3.png" alt="img">
                             </div>    
                         </div>
                         <div class="col-sm-5">  
                             <div class="gallery-thumb">
-                                <img src="assets/img/gallery/4.png" alt="img">
+                                <img src="/assets/img/gal4.png" alt="img">
                             </div>
                         </div>
                     </div>
@@ -306,8 +175,8 @@
             <div class="row">
                 <div class="col-xl-6 col-lg-7 align-self-center">
                     <div class="section-title mb-lg-0 mb-2">
-                        <h2 class="title">Base Floor Plan</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel eros quam. Sed sit amet dictum est, at fringilla enim. Praesent varius risus a convallis placerat. Aenean hendrerit lorem auctor ex condimentum. </p>
+                        <h2 class="title">Affordable Luxury</h2>
+                        <p>With top-notch furnishing and finishing, each unit is superbly designed to accommodate your style. While luxurious homes are what we offer, acquiring one from us is far from a tall order. </p>
                         <div class="floor-list">
                             <div class="row">
                                 <div class="col-md-4 col-sm-6">
@@ -365,23 +234,12 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4 col-sm-6">
-                                    <div class="single-floor-list media">
-                                        <div class="media-left">
-                                            <img src="assets/img/icons/17.png" alt="img">
-                                        </div>
-                                        <div class="media-body">
-                                            <h6>Gym Area</h6>
-                                            <p>20 x 16 sq feet</p>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-5 align-self-center">
-                    <img src="assets/img/others/5.png" alt="img">
+                    <img src="/assets/img/afford.png" alt="img">
                 </div>
             </div>
         </div>
@@ -392,26 +250,26 @@
         <div class="container">
             <div class="section-title">
                 <h2 class="title">Available Apartments</h2>
-                <a class="btn-view-all" href="#">View All</a>
+                <a class="btn-view-all" href="/property">View All</a>
             </div>
             <div class="row">
+            @foreach($datas as $data)
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-feature">
                         <div class="thumb">
-                            <img src="assets/img/feature/4.png" alt="img">
+                            <img src="{{ $data->featured_thumbnail }}" alt="img">
                             <a href="#"><i class="fa fa-heart"></i></a>
                         </div>
                         <div class="details">
                             <a href="#" class="feature-logo">
-                                <img src="assets/img/icons/l3.png" alt="icons">
+                                <img src="/assets/img/icons/l3.png" alt="icons">
                             </a>
-                            <p class="author"><i class="fa fa-user"></i> Vilma Jarvi By Redbrox</p>
-                            <h6 class="title"><a href="#">Jason Landville Apartment</a></h6>
-                            <h6 class="price">$350/mo</h6><del>$790/mo</del>
+                            <h6 class="title"><a href="#">{{ $data->name }}</a></h6>
+                            <h6 class="price"><span>&#8358;</span>{{ number_format($data->price) }}/unit</h6>
                             <ul class="info-list">
-                                <li><i class="fa fa-bed"></i> 05 Bed</li>
-                                <li><i class="fa fa-bath"></i> 02 Bath</li>
-                                <li><img src="assets/img/icons/7.png" alt="img"> 1898 sq.</li>
+                                <li><i class="fa fa-bed"></i> {{ $data->keypoint->bedroom }} Bed</li>
+                                <li><i class="fa fa-bath"></i> {{ $data->keypoint->bathroom }} Bath</li>
+                                <li><img src="/assets/img/icons/7.png" alt="img"> {{ $data->keypoint->area }} sqm.</li>
                             </ul>
                             <ul class="contact-list">
                                 <li><a class="phone" href="#"><i class="fa fa-phone"></i></a></li>
@@ -421,85 +279,77 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-feature">
+            @endforeach
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="why-choose-us-area bg-gray pd-top-90 pd-bottom-60">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2 class="title">Why Choose Us</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xl-3 col-lg-4 col-sm-6">
+                    <div class="single-intro text-lg-left text-center">
                         <div class="thumb">
-                            <img src="assets/img/feature/5.png" alt="img">
-                            <a href="#"><i class="fa fa-heart"></i></a>
+                            <img src="assets/img/icons/12.png" alt="img">
                         </div>
                         <div class="details">
-                            <a href="#" class="feature-logo">
-                                <img src="assets/img/icons/l4.png" alt="icons">
-                            </a>
-                            <p class="author"><i class="fa fa-user"></i> Vilma Jarvi By Redbrox</p>
-                            <h6 class="title"><a href="#">Jason Landville Apartment</a></h6>
-                            <h6 class="price">$350/mo</h6><del>$790/mo</del>
-                            <ul class="info-list">
-                                <li><i class="fa fa-bed"></i> 05 Bed</li>
-                                <li><i class="fa fa-bath"></i> 02 Bath</li>
-                                <li><img src="assets/img/icons/7.png" alt="img"> 1898 sq.</li>
-                            </ul>
-                            <ul class="contact-list">
-                                <li><a class="phone" href="#"><i class="fa fa-phone"></i></a></li>
-                                <li><a class="message" href="#"><img src="assets/img/icons/8.png" alt="img"></a></li>
-                                <li><a class="btn btn-yellow" href="#">View Details</a></li>
-                            </ul>
+                            <h4 class="title"><a href="#">Affordability and Flexibility of Payment</a></h4>
+                            <p>While we offer premium service, our properties are relatively affordable. Whether you subscribe to an instalment or mortgage, our payment plans are quite flexible and easy to fulfil.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-feature">
+                <div class="col-xl-3 col-lg-4 col-sm-6 offset-xl-1">
+                    <div class="single-intro text-lg-left text-center">
                         <div class="thumb">
-                            <img src="assets/img/feature/6.png" alt="img">
-                            <a href="#"><i class="fa fa-heart"></i></a>
+                           <img src="assets/img/icons/11.png" alt="img">
+                            
                         </div>
                         <div class="details">
-                            <a href="#" class="feature-logo">
-                                <img src="assets/img/icons/l5.png" alt="icons">
-                            </a>
-                            <p class="author"><i class="fa fa-user"></i> Vilma Jarvi By Redbrox</p>
-                            <h6 class="title"><a href="#">Jason Landville Apartment</a></h6>
-                            <h6 class="price">$350/mo</h6><del>$790/mo</del>
-                            <ul class="info-list">
-                                <li><i class="fa fa-bed"></i> 05 Bed</li>
-                                <li><i class="fa fa-bath"></i> 02 Bath</li>
-                                <li><img src="assets/img/icons/7.png" alt="img"> 1898 sq.</li>
-                            </ul>
-                            <ul class="contact-list">
-                                <li><a class="phone" href="#"><i class="fa fa-phone"></i></a></li>
-                                <li><a class="message" href="#"><img src="assets/img/icons/8.png" alt="img"></a></li>
-                                <li><a class="btn btn-yellow" href="#">View Details</a></li>
-                            </ul>
+                            <h4 class="title"><a href="#">Certificate of Occupancy</a></h4>
+                            <p>Our estates have a certificate of occupancy and other cogent documents backed by the state’s authority. This eliminates concerns that border on government’s forceful reacquisition.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-feature">
+                <div class="col-xl-3 col-lg-4 col-sm-6 offset-xl-1">
+                    <div class="single-intro text-lg-left text-center">
                         <div class="thumb">
-                            <img src="assets/img/feature/7.png" alt="img">
-                            <a href="#"><i class="fa fa-heart"></i></a>
+                            <img src="assets/img/icons/13.png" alt="img">
                         </div>
                         <div class="details">
-                            <a href="#" class="feature-logo">
-                                <img src="assets/img/icons/l6.png" alt="icons">
-                            </a>
-                            <p class="author"><i class="fa fa-user"></i> Vilma Jarvi By Redbrox</p>
-                            <h6 class="title"><a href="#">Jason Landville Apartment</a></h6>
-                            <h6 class="price">$350/mo</h6><del>$790/mo</del>
-                            <ul class="info-list">
-                                <li><i class="fa fa-bed"></i> 05 Bed</li>
-                                <li><i class="fa fa-bath"></i> 02 Bath</li>
-                                <li><img src="assets/img/icons/7.png" alt="img"> 1898 sq.</li>
-                            </ul>
-                            <ul class="contact-list">
-                                <li><a class="phone" href="#"><i class="fa fa-phone"></i></a></li>
-                                <li><a class="message" href="#"><img src="assets/img/icons/8.png" alt="img"></a></li>
-                                <li><a class="btn btn-yellow" href="#">View Details</a></li>
-                            </ul>
+                            <h4 class="title"><a href="#">Guaranteed Security</a></h4>
+                            <p>Your safety is assured, each minute of each day. Our real-time monitored state-of-the-art security system provides surveillance for your perimeter and select areas of your interior.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+     <!-- client area start -->
+     <div class="client-area pd-top-92 pd-bottom-100">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2 class="title">Our Partner</h2>
+            </div>
+            <div class="client-slider">
+                <div class="item">
+                    <div class="thumb">
+                        <img src="assets/img/pat1.png" alt="client">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="thumb">
+                        <img src="assets/img/pat2.png" alt="client">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- client area end -->
+
 @endsection

@@ -44,7 +44,7 @@ Version: 1.0.0
 -----------------*/
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Poppins:200,300,400,400i,500,600,700i&display=swap");
 :root {
-  --main-color-one: #FDA94F;
+  --main-color-one: #B68CB8;
   --main-color-two: #FF6E63;
   --heading-color: #101425;
   --paragraph-color: #666;
@@ -365,7 +365,7 @@ code {
   padding-bottom: 92px; }
 
 .pd-bottom-100 {
-  padding-bottom: 100px; }
+  padding-bottom: 40px; }
 
 .pd-bottom-120 {
   padding-bottom: 120px; }
@@ -987,7 +987,7 @@ ul {
       margin-right: 6px; }
     .rld-list-style li i {
       margin-right: 6px;
-      background: rgba(253, 169, 79, 0.1);
+      background: rgba(161, 144, 162, 0.19);
       color: var(--main-color-one);
       height: 24px;
       width: 24px;
@@ -2283,9 +2283,13 @@ ul {
   .contact-form-wrap .rld-single-input {
     margin-top: 10px; }
   .contact-form-wrap button {
-    margin-top: 23px;
+    margin-top: 20px;
     padding: 0 45px;
     letter-spacing: 0.5px; }
+    .contact-form-wrap button_1 {
+      margin-top: 90px;
+      padding: 0 45px;
+      letter-spacing: 0.5px; }
   .contact-form-wrap .social-icon {
     margin-top: 20px; }
 
@@ -2493,6 +2497,8 @@ ul {
       border: 1px solid var(--main-color-one); }
 
 .rld-single-select .single-select {
+  margin-top: 10px;
+  background-color: #f9fafa;
   height: 48px;
   line-height: 47px;
   width: 100%;
@@ -2504,6 +2510,23 @@ ul {
   transition: all 0.4s ease;
   position: relative;
   border-radius: 4px; }
+
+  .rld-single-select .single-select_1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #f9fafa;
+    height: 48px;
+    line-height: 47px;
+    width: 100%;
+    padding: 0 34px 0 20px;
+    border: 1px solid #D4D4D4;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    position: relative;
+    border-radius: 4px; }
+
   .rld-single-select .single-select:hover, .rld-single-select .single-select:active, .rld-single-select .single-select:focus {
     border: 1px solid var(--main-color-one); }
   .rld-single-select .single-select:after {
@@ -2519,6 +2542,7 @@ ul {
     right: 14px;
     left: auto;
     background-repeat: no-repeat; }
+    
   .rld-single-select .single-select .list {
     width: 100%; }
 
@@ -2793,7 +2817,7 @@ ul {
       .single-feature .details .info-list li {
         display: inline-block;
         list-style: none;
-        margin-right: 12px; }
+        margin-right: 10px; }
         .single-feature .details .info-list li img,
         .single-feature .details .info-list li i {
           margin-right: 4px;
@@ -3106,7 +3130,7 @@ ul {
 .single-floor-list {
   margin-bottom: 30px; }
   .single-floor-list .media-left {
-    background: #FFDEC5;
+    background: rgba(161, 144, 162, 0.19);
     border-radius: 5px;
     height: 40px;
     width: 40px;
