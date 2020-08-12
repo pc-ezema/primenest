@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="/assets/css/style.css">
     <!-- responsive Stylesheet -->
     <link rel="stylesheet" href="/assets/css/responsive.css">
+
+   @includeIf('layouts.analytics')
+
 </head>
 <body>
 
