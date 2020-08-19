@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="/assets/css/responsive.css">
 
    @includeIf('layouts.analytics')
+   @includeIf('layouts.fb_pixel')
 
 </head>
 <body>
