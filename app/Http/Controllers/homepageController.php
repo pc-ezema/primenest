@@ -68,7 +68,7 @@ class homepageController extends Controller
          'email' => request()->email,
          'phone' => request()->phone,
          'description' => request()->message,
-         'admin_email' => 'admin@primenest.ng',
+         'admin_email' => 'info@primenest.ng',
          'created_at' => $db_data->created_at,
         );
 
@@ -115,7 +115,7 @@ class homepageController extends Controller
             'phone' => request()->phone,
             'property_type' => request()->property_type,
             'payment_option' => request()->payment_option,
-            'admin_email' => 'admin@primenest.ng',
+            'admin_email' => 'info@primenest.ng',
             'created_at' => $db_data->created_at,
             // 'created_at' => $db_data->created_at,
           );
