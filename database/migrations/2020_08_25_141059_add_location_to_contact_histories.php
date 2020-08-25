@@ -14,7 +14,7 @@ class AddLocationToContactHistories extends Migration
     public function up()
     {
         Schema::table('contact_histories', function (Blueprint $table) {
-            $table->string('location')->nullable();
+            $table->string('location')->nullable()->before('created_at');
         });
     }
 
@@ -26,7 +26,7 @@ class AddLocationToContactHistories extends Migration
     public function down()
     {
         Schema::table('contact_histories', function (Blueprint $table) {
-            $table->dropColumn(['location']);
+            //
         });
     }
 }
