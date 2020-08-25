@@ -2511,9 +2511,9 @@ ul {
   position: relative;
   border-radius: 4px; }
 
-  .rld-single-select .single-select_1 {
+  .rld-single-select_1 .single-select_1 {
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 4px;
     background-color: #f9fafa;
     height: 48px;
     line-height: 47px;

@@ -32,5 +32,7 @@ class CreateContactHistoriesTable extends Migration
     public function down()
     {
         Schema::dropIfExists('contact_histories');
+        
+
     }
 }

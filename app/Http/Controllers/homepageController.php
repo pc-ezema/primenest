@@ -51,6 +51,7 @@ class homepageController extends Controller
           'email' => 'required|email',
           'phone' => 'required',
           'message' => 'required',
+          'location' => 'required',
           'g-recaptcha-response' => 'required|captcha',
         ));
 
@@ -60,6 +61,7 @@ class homepageController extends Controller
         $db_data->email = request()->email;
         $db_data->phone = request()->phone;
         $db_data->message = request()->message;
+        $db_data->location = request()->location;
         $db_data->save();
 
         /* save the input to data */
@@ -68,6 +70,7 @@ class homepageController extends Controller
          'email' => request()->email,
          'phone' => request()->phone,
          'description' => request()->message,
+         'location' => request()->location,
          'admin_email' => 'info@primenest.ng',
          'created_at' => $db_data->created_at,
         );
