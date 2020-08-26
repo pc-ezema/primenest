@@ -36,7 +36,7 @@
                                 <option value="3 bedroom">3 Bedroom</option>
                             </select>
                         </div>
-                        <div class="rld-single-select">
+                        <div class="rld-single-select_1">
                             
                             <select class="select single-select_1" name="payment_option">
                                 <option value= "">Payment Option </option>
@@ -44,6 +44,15 @@
                                 <option value="mortgage">Mortgage</option>
                                 <option value="instalment">Instalment</option>
                             </select>
+                        </div>
+                        <div class="rld-single-select_1">
+                            <select class="select single-select_1" name="location">
+                                <option value=""> Preferred Location </option>
+                              <option value="ibadan">Ibadan</option>
+                              <option value="ifo ogun state">Ifo Ogun State</option>
+                              <option value="waterman ogun state">Waterman Ogun State</option>
+                              <option value="iseyin oyo state">Iseyin Oyo State</option>
+                          </select>
                         </div>
 
                             {!! NoCaptcha::renderJs() !!}

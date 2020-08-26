@@ -95,6 +95,7 @@ class homepageController extends Controller
              'phone' => 'required',
              'property_type' => 'required',
              'payment_option' => 'required',
+             'location' => 'required',
              'g-recaptcha-response' => 'required|captcha',
            ));
 
@@ -106,6 +107,7 @@ class homepageController extends Controller
             $db_data->other_name = request()->other_name;
             $db_data->phone = request()->phone;
             $db_data->property_type = request()->property_type;
+            $db_data->location = request()->location;
             $db_data->payment_option = request()->payment_option;
 
             $db_data->save();
@@ -118,9 +120,9 @@ class homepageController extends Controller
             'phone' => request()->phone,
             'property_type' => request()->property_type,
             'payment_option' => request()->payment_option,
+            'location' => request()->location,
             'admin_email' => 'info@primenest.ng',
             'created_at' => $db_data->created_at,
-            // 'created_at' => $db_data->created_at,
           );
 
         /* send notification email to the admin */
