@@ -15,6 +15,11 @@ class homepageController extends Controller
         return view('welcome')->with('datas',$datas);
     }
 
+
+    public function searchProperty(){
+        return view("search");
+    }
+
     public function aboutUs(){
 
         return view("about-us");

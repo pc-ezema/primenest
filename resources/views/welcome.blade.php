@@ -207,15 +207,15 @@
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                 <div class="single-feature">
                     <div class="thumb">
-                        <img src="assets/img/feature/4.png" alt="img">
+                        <img src="assets/img/feature/5.png" alt="img">
                         <a href="#"><i class="fa fa-heart"></i></a>
                     </div>
                     <div class="details">
                         <a href="#" class="feature-logo">
-                            <img src="assets/img/icons/l3.png" alt="icons">
+                            <img src="assets/img/icons/l4.png" alt="icons">
                         </a>
                         <p class="author"><i class="fa fa-user"></i> Vilma Jarvi By Redbrox</p>
-                        <h6 class="title"><a href="property-details.html">United eandqille Apartment</a></h6>
+                        <h6 class="title"><a href="property-details.html">Jason Landville Apartment</a></h6>
                         <h6 class="price">$350/mo</h6><del>$790/mo</del>
                         <ul class="info-list">
                             <li><i class="fa fa-bed"></i> 05 Bed</li>
@@ -313,12 +313,13 @@
 </div>
 <!-- feature area end -->
  <!-- call to action area start -->
- <div class="call-to-action-area pd-top-70">
+ <div class="call-to-action-area pd-top-100">
     <div class="container">
-        <div class="call-to-action" style="background-image: url(assets/img/bg/1.png);">
+        <div class="call-to-action style-two" style="background-image: url(/assets/img/afford.png);">
             <div class="cta-content">
-                <h3 class="title">Become a Real Estate Agent</h3>
-                <a class="btn btn-white" href="#">REGISTER NOW</a>
+                <h3 class="title">Contact With Our Property Agent</h3>
+                <a class="btn btn-white mb-2 mb-sm-0 mr-2" href="/contact-us">Make a Call</a>
+                <a class="btn btn-white mb-2 mb-sm-0 mr-xl-3 mr-0" href="/property">Get a Property</a>
             </div>
         </div>
     </div>
@@ -463,120 +464,46 @@
 </div>
 <!-- city & intro area end -->
  <!-- Properties area start -->
- <div class="properties-area pd-top-92">
+ <div class="properties-area pd-bottom-70">
     <div class="container">
         <div class="section-title">
-            <h2 class="title">Recent Properties for Sold</h2>
-            <a class="btn-view-all" href="property-details.html">View All</a>
+            <h2 class="title">Available Apartments</h2>
+            <a class="btn-view-all" href="/property">View All</a>
         </div>
         <div class="row">
+        @foreach($datas as $data)
             <div class="col-lg-3 col-sm-6">
                 <div class="single-feature">
                     <div class="thumb">
-                        <img src="assets/img/feature/4.png" alt="img">
+                        <img src="{{ $data->featured_thumbnail }}" alt="img">
                         <a href="#"><i class="fa fa-heart"></i></a>
                     </div>
                     <div class="details">
                         <a href="#" class="feature-logo">
-                            <img src="assets/img/icons/l3.png" alt="icons">
+                            <img src="/assets/img/icons/l3.png" alt="icons">
                         </a>
-                        <p class="author"><i class="fa fa-user"></i> Vilma Jarvi By Redbrox</p>
-                        <h6 class="title"><a href="property-details.html">Jason Landville Apartment</a></h6>
-                        <h6 class="price">$350/mo</h6><del>$790/mo</del>
+                        <h6 class="title"><a href="#">{{ $data->name }}</a></h6>
+                        <h6 class="price"><span>&#8358;</span>{{ number_format($data->price) }}/unit</h6>
                         <ul class="info-list">
-                            <li><i class="fa fa-bed"></i> 05 Bed</li>
-                            <li><i class="fa fa-bath"></i> 02 Bath</li>
-                            <li><img src="assets/img/icons/7.png" alt="img"> 1898 sq.</li>
+                            <li><i class="fa fa-bed"></i> {{ $data->keypoint->bedroom }} Bed</li>
+                            <li><i class="fa fa-bath"></i> {{ $data->keypoint->bathroom }} Bath</li>
+                            <li><img src="/assets/img/icons/7.png" alt="img"> {{ $data->keypoint->area }} sqm.</li>
                         </ul>
                         <ul class="contact-list">
                             <li><a class="phone" href="#"><i class="fa fa-phone"></i></a></li>
                             <li><a class="message" href="#"><img src="assets/img/icons/8.png" alt="img"></a></li>
-                            <li><a class="btn btn-yellow" href="property-details.html">View Details</a></li>
+                            <li><a class="btn btn-yellow" href="#">View Details</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="single-feature">
-                    <div class="thumb">
-                        <img src="assets/img/feature/5.png" alt="img">
-                        <a href="#"><i class="fa fa-heart"></i></a>
-                    </div>
-                    <div class="details">
-                        <a href="#" class="feature-logo">
-                            <img src="assets/img/icons/l4.png" alt="icons">
-                        </a>
-                        <p class="author"><i class="fa fa-user"></i> Vilma Jarvi By Redbrox</p>
-                        <h6 class="title"><a href="property-details.html">Vegas Landville Apartment</a></h6>
-                        <h6 class="price">$350/mo</h6><del>$790/mo</del>
-                        <ul class="info-list">
-                            <li><i class="fa fa-bed"></i> 05 Bed</li>
-                            <li><i class="fa fa-bath"></i> 02 Bath</li>
-                            <li><img src="assets/img/icons/7.png" alt="img"> 1898 sq.</li>
-                        </ul>
-                        <ul class="contact-list">
-                            <li><a class="phone" href="#"><i class="fa fa-phone"></i></a></li>
-                            <li><a class="message" href="#"><img src="assets/img/icons/8.png" alt="img"></a></li>
-                            <li><a class="btn btn-yellow" href="property-details.html">View Details</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="single-feature">
-                    <div class="thumb">
-                        <img src="assets/img/feature/6.png" alt="img">
-                        <a href="#"><i class="fa fa-heart"></i></a>
-                    </div>
-                    <div class="details">
-                        <a href="#" class="feature-logo">
-                            <img src="assets/img/icons/l5.png" alt="icons">
-                        </a>
-                        <p class="author"><i class="fa fa-user"></i> Vilma Jarvi By Redbrox</p>
-                        <h6 class="title"><a href="property-details.html">United Landville Apartment</a></h6>
-                        <h6 class="price">$350/mo</h6><del>$790/mo</del>
-                        <ul class="info-list">
-                            <li><i class="fa fa-bed"></i> 05 Bed</li>
-                            <li><i class="fa fa-bath"></i> 02 Bath</li>
-                            <li><img src="assets/img/icons/7.png" alt="img"> 1898 sq.</li>
-                        </ul>
-                        <ul class="contact-list">
-                            <li><a class="phone" href="#"><i class="fa fa-phone"></i></a></li>
-                            <li><a class="message" href="#"><img src="assets/img/icons/8.png" alt="img"></a></li>
-                            <li><a class="btn btn-yellow" href="property-details.html">View Details</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="single-feature">
-                    <div class="thumb">
-                        <img src="assets/img/feature/7.png" alt="img">
-                        <a href="#"><i class="fa fa-heart"></i></a>
-                    </div>
-                    <div class="details">
-                        <a href="#" class="feature-logo">
-                            <img src="assets/img/icons/l6.png" alt="icons">
-                        </a>
-                        <p class="author"><i class="fa fa-user"></i> Vilma Jarvi By Redbrox</p>
-                        <h6 class="title"><a href="property-details.html">Jason Landville Apartment</a></h6>
-                        <h6 class="price">$350/mo</h6><del>$790/mo</del>
-                        <ul class="info-list">
-                            <li><i class="fa fa-bed"></i> 05 Bed</li>
-                            <li><i class="fa fa-bath"></i> 02 Bath</li>
-                            <li><img src="assets/img/icons/7.png" alt="img"> 1898 sq.</li>
-                        </ul>
-                        <ul class="contact-list">
-                            <li><a class="phone" href="#"><i class="fa fa-phone"></i></a></li>
-                            <li><a class="message" href="#"><img src="assets/img/icons/8.png" alt="img"></a></li>
-                            <li><a class="btn btn-yellow" href="property-details.html">View Details</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+        @endforeach
+
+
         </div>
     </div>
 </div>
+<!-- Properties area end -->
 <!-- feature Properties area end -->
 <!-- Projects start -->
 {{-- <div class="featured-projects pd-top-60 pd-bottom-70">
