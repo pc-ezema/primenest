@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -23,7 +24,7 @@
 <body>
 
     <!-- preloader area start -->
-    <!-- @includeIf("layouts.preloader") -->
+     <!-- @includeIf("layouts.preloader") -->
     <!-- preloader area end -->
     <div class="body-overlay" id="body-overlay"></div>
 
@@ -34,13 +35,19 @@
     <!-- banner area start -->
     @yield("slider")
     <!-- banner area end -->
+
     @yield("breadcrumb")
-    <!-- apartments area start -->
-   @yield("main_content")
-    <!-- feature Properties area end -->
+
+    <!-- Service area start -->
+
+    @yield("main_content")
+    
+    <!-- Service area End -->
 
     <!-- footer area start -->
-    @includeIf("layouts.footer")
+
+     @includeIf("layouts.footer")
+
     <!-- footer area end -->
 
     <!-- back to top area start -->
@@ -48,7 +55,7 @@
         <span class="back-top"><i class="fa fa-angle-up"></i></span>
     </div>
     <!-- back to top area end -->
-
+     
     <!--  chat plugin  -->
     @includeIf("layouts.tawk" )
     <!-- all plugins here -->
