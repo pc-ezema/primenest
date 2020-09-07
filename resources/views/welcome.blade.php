@@ -703,7 +703,7 @@
 <!-- choose us start -->
 
      <!-- client area start -->
-     <div class="client-area pd-top-92 pd-bottom-100">
+     <div class="client-area pd-top-60 pd-bottom-100">
         <div class="container">
             <div class="section-title text-center">
                 <h2 class="title">Our Partner</h2>
