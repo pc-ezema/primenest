@@ -19,7 +19,7 @@
                         <img src="assets/img/icons/3.png" alt="icons">
                     </div>
                     <div class="details">
-                        <h4><a href="#">Upgrade to Bigger Homes</a></h4>
+                        <h4><a href="#">Become your own Landlord</a></h4>
                         {{-- <a class="readmore-btn" href="#">Explore Now <i class="la la-arrow-right"></i></a> --}}
                     </div>
                 </div>
@@ -30,7 +30,7 @@
                         <img src="assets/img/icons/4.png" alt="icons">
                     </div>
                     <div class="details">
-                        <h4><a href="#">Upgrade to Bigger Homes</a></h4>
+                        <h4><a href="#">Affordable and Flexible Payment</a></h4>
                         {{-- <a class="readmore-btn" href="#">Explore Now <i class="la la-arrow-right"></i></a> --}}
                     </div>
                 </div>
@@ -74,10 +74,10 @@
                         <a href="#"><i class="fa fa-paper-plane"></i></a>
                     </div>
                     <div class="details">
-                        <h4><a href="#">New York</a></h4>
+                        <h4><a href="#">Bricks Court</a></h4>
                         <ul class="list">
-                            <li><img src="assets/img/icons/1.png" alt="icona">Listings: 102</li>
-                            <li><i class="fa fa-usd"></i>Price: $60000</li>
+                            <li><img src="assets/img/icons/1.png" alt="icona">Abeokuta</li>
+                            <li><i class="fa fa-usd"></i>Price: <span>&#8358;</span>6000000 </li>
                         </ul>
                     </div>
                 </div>
@@ -89,10 +89,10 @@
                         <a href="#"><i class="fa fa-paper-plane"></i></a>
                     </div>
                     <div class="details">
-                        <h4><a href="#">United Stade</a></h4>
+                        <h4><a href="#">Bricks Court</a></h4>
                         <ul class="list">
-                            <li><img src="assets/img/icons/1.png" alt="icona">Listings: 201</li>
-                            <li><i class="fa fa-usd"></i>Price: $80000</li>
+                            <li><img src="assets/img/icons/1.png" alt="icona">Sagamu</li>
+                            <li><i class="fa fa-usd"></i>Price: <span>&#8358;</span>6000000</li>
                         </ul>
                     </div>
                 </div>
@@ -104,10 +104,10 @@
                         <a href="#"><i class="fa fa-paper-plane"></i></a>
                     </div>
                     <div class="details">
-                        <h4><a href="#">San Srancisco</a></h4>
+                        <h4><a href="#">LilyCourt</a></h4>
                         <ul class="list">
-                            <li><img src="assets/img/icons/1.png" alt="icona">Listings: 85</li>
-                            <li><i class="fa fa-usd"></i>Price: $30000</li>
+                            <li><img src="assets/img/icons/1.png" alt="icona">Ajegunle</li>
+                            <li><i class="fa fa-usd"></i>Price: <span>&#8358;</span>12800000 </li>
                         </ul>
                     </div>
                 </div>
@@ -119,10 +119,10 @@
                         <a href="#"><i class="fa fa-paper-plane"></i></a>
                     </div>
                     <div class="details">
-                        <h4><a href="#">Las Vegas</a></h4>
+                        <h4><a href="#">LilyCourt</a></h4>
                         <ul class="list">
-                            <li><img src="assets/img/icons/1.png" alt="icona">Listings: 115</li>
-                            <li><i class="fa fa-usd"></i>Price: $70000</li>
+                            <li><img src="assets/img/icons/1.png" alt="icona">Ajegunle</li>
+                            <li><i class="fa fa-usd"></i>Price: <span>&#8358;</span>14800000 </li>
                         </ul>
                     </div>
                 </div>
@@ -340,7 +340,7 @@
                     <div class="single-city sc-one">
                         <div class="sc-overlay"></div>
                         <div class="thumb">
-                            <img src="assets/img/city/1.png" alt="image">
+                            <img src="assets/img/city4.png" alt="image">
                         </div>
                         <div class="details">
                             <h5 class="title"><a href="#">New York</a></h5>
@@ -353,7 +353,7 @@
                     <div class="single-city sc-two">
                         <div class="sc-overlay"></div>
                         <div class="thumb">
-                            <img src="assets/img/city/2.png" alt="image">
+                            <img src="assets/img/city7.png" alt="image">
                         </div>
                         <div class="details">
                             <h5 class="title"><a href="#">Las Vegas</a></h5>
@@ -366,7 +366,7 @@
                     <div class="single-city">
                         <div class="sc-overlay"></div>
                         <div class="thumb">
-                            <img src="assets/img/city/3.png" alt="image">
+                            <img src="assets/img/city1.png" alt="image">
                         </div>
                         <div class="details">
                             <h5 class="title"><a href="#">San Srancisco</a></h5>
@@ -379,7 +379,7 @@
                     <div class="single-city sc-three">
                         <div class="sc-overlay"></div>
                         <div class="thumb">
-                            <img src="assets/img/city/4.png" alt="image">
+                            <img src="assets/img/city2.png" alt="image">
                         </div>
                         <div class="details">
                             <h5 class="title"><a href="#">United State</a></h5>
@@ -392,7 +392,7 @@
                     <div class="single-city">
                         <div class="sc-overlay"></div>
                         <div class="thumb">
-                            <img src="assets/img/city/2.png" alt="image">
+                            <img src="assets/img/city3.png" alt="image">
                         </div>
                         <div class="details">
                             <h5 class="title"><a href="#">Vilma Jarvi</a></h5>
@@ -405,7 +405,7 @@
                     <div class="single-city">
                         <div class="sc-overlay"></div>
                         <div class="thumb">
-                            <img src="assets/img/city/6.png" alt="image">
+                            <img src="assets/img/city8.png" alt="image">
                         </div>
                         <div class="details">
                             <h5 class="title"><a href="#">United State</a></h5>
@@ -418,7 +418,7 @@
                     <div class="single-city">
                         <div class="sc-overlay"></div>
                         <div class="thumb">
-                            <img src="assets/img/city/7.png" alt="image">
+                            <img src="assets/img/city5.png" alt="image">
                         </div>
                         <div class="details">
                             <h5 class="title"><a href="#">New York</a></h5>
