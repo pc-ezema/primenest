@@ -84,29 +84,19 @@
             <div class="section-title">
                 <!-- <h5 class="sub-title">Best Service</h5> -->
                 <h2 class="title"> Our Services </h2>
-                <p>Our services include property development, asset management, and construction.<br> We bring with us a wealth of industry experience that helps us to provide solutions in real estate.</p>
+                <p>Our services include property development, construction, and asset management.<br> We bring with us a wealth of industry experience that helps us to provide solutions in real estate.</p>
             </div>
             <div class="service-slider-2 row pb-xl-5 pd-0">
                 <div class="item">
-                    <div class="single-intro text-center">
+                    <div class="single-intro text-center equal">
                         <div class="thumb">
                             <img src="assets/img/icons/19.png" alt="img">
                         </div>
                         <div class="details">
                             <h4 class="title"><a href="#">Property Development</a></h4>
-                            <p>At Prime Nest, we oversee the progress of the project from the owner’s viewpoint.  We develop and manage our estate properties by forming strategic partnerships with organisations. We ascribe our success in the industry to our unyielding values.</p>
-                            <a class="read-more" href="#">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="single-intro text-center">
-                        <div class="thumb">
-                            <img src="assets/img/icons/20.png" alt="img">
-                        </div>
-                        <div class="details">
-                            <h4 class="title"><a href="#">Asset Management</a></h4>
-                            <p>Owning an investment property goes with extra baggage. The ability to maintain and manage an investment property needs much time and effort. We help you manage your assets and ease access to the National Housing Fund from the Federal Mortgage Bank.</p>
+                            <p> Prime Nest, we oversee the progress of the project from the owner’s viewpoint.  
+                                We develop and manage our estate properties by forming strategic partnerships with 
+                                organisations. We ascribe our success in the industry to our unyielding values.</p>
                             <a class="read-more" href="#">Read More</a>
                         </div>
                     </div>
@@ -123,6 +113,19 @@
                         </div>
                     </div>
                 </div>
+                <div class="item">
+                    <div class="single-intro text-center equal">
+                        <div class="thumb">
+                            <img src="assets/img/icons/20.png" alt="img">
+                        </div>
+                        <div class="details">
+                            <h4 class="title"><a href="#">Asset Management</a></h4>
+                            <p>Owning an investment property goes with extra baggage. The ability to maintain and manage an investment property needs much time and effort. We help you manage your assets and ease access to the National Housing Fund from the Federal Mortgage Bank.</p>
+                            <a class="read-more" href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </div>

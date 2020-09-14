@@ -1,4 +1,5 @@
-<div class="banner-area jarallax" style="background-image: url(/assets/img/banner.png);">
+<div class="banner-area " style="background-image: url(/assets/img/banner.png); ">
+    {{-- jarallax --}}
     <div class="container">
         <div class="banner-inner-wrap">
             <div class="row">
@@ -86,7 +87,7 @@
                                         </div>
                                         <div class="col-xl-2 col-lg-6 col-md-6">
                                             <div class="rld-single-select">
-                                                <select class="select single-select">
+                                                <select class="select single-select" id="up-layer">
                                                   <option value="1">All Properties</option>
                                                   <option value="2">Properties 1</option>
                                                   <option value="3">Properties 2</option>
