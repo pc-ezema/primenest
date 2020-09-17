@@ -9,9 +9,15 @@ class PropertyController extends Controller
 {
     public function fetch(){
 
-        /** Gets all properties and stores in [datas] */
-        $datas = Property::all();
 
+        /** Gets all properties and stores in [datas] */
+
+        if(request()->id){
+            $datas = Property::where('id',request()->id)->get();
+        }else{
+            $datas = Property::all();
+        }
+       
         /** Creates a collection instance */
         $result = collect();
 
@@ -35,6 +41,9 @@ class PropertyController extends Controller
     }
 
 
+    
+
+
 
     public function create(){
         //request()->property
@@ -52,6 +61,7 @@ class PropertyController extends Controller
         $data->estate = $property_obj->estate;
         $data->name = $property_obj->name;
         $data->price = $property_obj->price;
+        $data->description = $property_obj->description;
         $data->save();
 
         if($fact_obj){

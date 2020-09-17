@@ -27,4 +27,10 @@ Route::group([
     Route::any('/property_update' , 'PropertyController@update');
     Route::any('/property_delete' , 'PropertyController@delete');
 
+
+    Route::any('/faq_fetch' , 'FaqController@fetch');
+    Route::any('/faq_create' , 'FaqController@create');
+    Route::any('/faq_update' , 'FaqController@update');
+    Route::any('/faq_delete' , 'FaqController@delete');
+
 });
