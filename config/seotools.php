@@ -43,7 +43,7 @@ return [
             'url'         => null, // Set null for using Url::current(), set false to total remove
             'type'        => false,
             'site_name'   => false,
-            'images'      => [],
+            'images'      => [url('/assets/img/primenest.png')],
         ],
     ],
     'twitter' => [
@@ -64,7 +64,7 @@ return [
             'description' => 'Affordable and Elegance Housing in Nigeria', // set false to total remove
             'url'         => null, // Set null for using Url::current(), set false to total remove
             'type'        => 'WebPage',
-            'images'      => [],
+            'images'      => [url('/assets/img/primenest.png')],
         ],
     ],
 ];

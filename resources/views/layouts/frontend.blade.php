@@ -12,8 +12,23 @@
     {!! SEO::generate() !!}
 
     <!-- favicon -->
-    <link rel=icon href=/assets/img/favicon.ico sizes="20x20" type="image/ico">
-    <link rel="shortcut icon" href="/assets/img/favicon.ico" />
+<link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon57-57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon60-60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon72-72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon76-76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon114-114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/img/favicon120-120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon144-144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/img/favicon152-152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon180-180.png">
+
+<link rel="icon" type="image/png" href="/assets/img/favicon32-32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/assets/img/favicon192-192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/assets/img/favicon96-96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/assets/img/favicon16-16.png" sizes="16x16">
+
+<link rel=icon href=/assets/img/favicon.ico sizes="20x20" type="image/ico">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" />
     <!-- Vendor Stylesheet -->
     <link rel="stylesheet" href="/assets/css/vendor.css">
     <!-- Main Stylesheet -->
