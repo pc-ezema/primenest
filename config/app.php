@@ -177,6 +177,8 @@ return [
         /*
          * Application Service Providers...
          */
+
+        Artesaos\SEOTools\Providers\SEOToolsServiceProvider::class,
         App\Providers\AppServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
 
@@ -240,6 +242,7 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
 
         'NoCaptcha' => Anhskohbo\NoCaptcha\Facades\NoCaptcha::class,
+        'SEO' => Artesaos\SEOTools\Facades\SEOTools::class,
 
     ],
 

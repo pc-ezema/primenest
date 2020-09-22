@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> @yield("title") </title>
+    <meta name="author" content="{{  config('app.name') }}">
+    <meta name="language" content="English">
+    
+    {!! SEO::generate() !!}
 
     <!-- favicon -->
     <link rel=icon href=/assets/img/favicon.ico sizes="20x20" type="image/ico">
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" />
     <!-- Vendor Stylesheet -->
     <link rel="stylesheet" href="/assets/css/vendor.css">
     <!-- Main Stylesheet -->

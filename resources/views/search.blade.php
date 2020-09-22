@@ -1,8 +1,5 @@
 @extends("layouts.frontend")
 
-@section("title")
-  {{ config("app.name") }} | Search Properties
-@endsection
 
 @section("breadcrumb")
   @includeIf("layouts.breadcrumb" , [ "title" => "Apartment for rent in Gulshan" , "subtitle" => "Apartment rent" ] )

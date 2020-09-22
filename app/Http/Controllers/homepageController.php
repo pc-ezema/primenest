@@ -5,10 +5,14 @@ use App\contact_history;
 use App\application_history;
 use Mail;
 use Illuminate\Http\Request;
+use Artesaos\SEOTools\Facades\SEOTools;
 
 class homepageController extends Controller
 {
     public function index(){
+
+        SEOTools::setTitle('Affordable and Elegant Housing in Nigeria');
+        SEOTools::setDescription('Experience real comfort and safety in our fully furnished, roomy bungalows with 24/7 CCTV surveillance');
 
         $datas = \App\Repositories\Pick::getDatabase();
 
@@ -22,30 +26,54 @@ class homepageController extends Controller
 
     public function aboutUs(){
 
+        SEOTools::setTitle('About Us');
+        SEOTools::setDescription('We are into property development, construction, and asset management, We provide real estate solutions that guarantee a sustainable lifestyle.');
+
         return view("about-us");
     }
 
     public function property(){
+
+        SEOTools::setTitle('Properties');
+        SEOTools::setDescription('With top-notch furnishing and finishing, each unit is superbly designed to accommodate your style.');
 
         $datas = \App\Repositories\Pick::getDatabase();
         return view("properties")->with('datas' , $datas);
     }
 
     public function propertyDetail(){
+
+        SEOTools::setTitle('Property Details');
+        SEOTools::setDescription('Each of our bungalows cover a total dimension of 300 square metres. With luxurious en-suite bedrooms, 24/7 CCTV surveillance, treated water and an airy living room.');
+
         return view("property-detail");
     }
 
     public function faq(){
+
+        SEOTools::setTitle('Frequently Asked Questions');
+        SEOTools::setDescription('Get answers to all your questions about our services, payment plans , housing location and policies');
+        // SEOTools::opengraph()->addProperty('type', 'articles');
+        // SEOTools::twitter()->setSite('@LuizVinicius73');
+        // SEOTools::jsonLd()->addImage('https://codecasts.com.br/img/logo.jpg');
 
         $datas = \App\Repositories\Faq::getFaq();
         return view("faq")->with('datas' , $datas);
     }
 
     public function contactUs(){
+
+        SEOTools::setTitle('Contact Us');
+        SEOTools::setDescription('Get in touch with us by sending us an email, we will get back to you as soon as possible. ');
+
         return view("contact-us");
     }
 
     public function application(){
+
+        SEOTools::setTitle('Application Form');
+        SEOTools::setDescription('Fill in your data to apply for any of our housing property');
+
         return view("application");
     }
 

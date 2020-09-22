@@ -1,10 +1,6 @@
 @extends("layouts.frontend")
 
 
-@section("title")
-  {{ config("app.name") }} | Properties Application
-@endsection
-
 @section("breadcrumb")
   @includeIf("layouts.breadcrumb" , [ "title" => "Application" , "subtitle" => "Application Form" ] )
 @endsection

@@ -1,10 +1,6 @@
 
 @extends("layouts.frontend")
 
-@section("title")
-  {{ config("app.name")}} | Homepage
-@endsection
-
 @section("slider")
   @includeIf("layouts.slider")
 @endsection
