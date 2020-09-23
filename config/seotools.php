@@ -41,8 +41,8 @@ return [
             'title'       => config('app.name'), // set false to total remove
             'description' => 'Affordable and Elegance Housing in Nigeria', // set false to total remove
             'url'         => null, // Set null for using Url::current(), set false to total remove
-            'type'        => false,
-            'site_name'   => false,
+            'type'        => 'Website',
+            'site_name'   => config('app.name'),
             'images'      => [config('app.url').'/assets/img/primenest.png'],
         ],
     ],
