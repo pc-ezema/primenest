@@ -13,10 +13,10 @@
                     <div class="section-title">
                         <h2 class="title">Frequently <br>asked questions</h2>
                     </div>
-                    <div class="accordion" id="accordion" itemscope itemtype="https://schema.org/Question">
+                    <div class="accordion" id="accordion" >
                     @foreach($datas as $data)
                         <!-- single accordion -->
-                        <div class="single-accordion card">
+                        <div class="single-accordion card" itemscope itemtype="https://schema.org/Question">
                             <div class="card-header" id="headingFour">
                                 <h2 class="mb-0">
                                     <button class="btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne"> <span itemprop="name"> {{ $data->question}} </span> </button>
