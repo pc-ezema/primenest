@@ -11,7 +11,8 @@
             <div class="row">
                 <div class="col-lg-6 mb-5 mb-lg-0">
                     <div class="section-title">
-                        <h2 class="title" itemprop="text">Frequently <br>asked questions</h2>
+                        <h2 class="title" >Frequently <br>asked questions</h2>
+                        <span itemprop="text"  style="visibility: hidden">Check out some of the frequently asked questions</span>
                     </div>
                     <div class="accordion" id="accordion" >
                     @foreach($datas as $data)
