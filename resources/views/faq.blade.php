@@ -22,8 +22,8 @@
                                     <button class="btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne"> <span itemprop="name"> {{ $data->question}} </span> </button>
                                 </h2>
                             </div>
-                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion"  itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
-                                <div class="card-body">
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion" >
+                                <div class="card-body"  itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
                                     <span itemprop="text">{{ $data->answer }} </span>
                                 </div>
                             </div>
