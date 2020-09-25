@@ -7,24 +7,24 @@
 @section("main_content")
     <!-- faq area start -->
     <div class="faq-area pd-top-100 pd-bottom-100">
-        <div class="container">
+        <div class="container" itemscope itemtype="https://schema.org/FAQPage">
             <div class="row">
                 <div class="col-lg-6 mb-5 mb-lg-0">
                     <div class="section-title">
                         <h2 class="title">Frequently <br>asked questions</h2>
                     </div>
-                    <div class="accordion" id="accordion">
+                    <div class="accordion" id="accordion" itemscope itemtype="https://schema.org/Question">
                     @foreach($datas as $data)
                         <!-- single accordion -->
                         <div class="single-accordion card">
                             <div class="card-header" id="headingFour">
                                 <h2 class="mb-0">
-                                    <button class="btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne"> {{ $data->question}} </button>
+                                    <button class="btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne"> <span itemprop="name"> {{ $data->question}} </span> </button>
                                 </h2>
                             </div>
-                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion"  itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
                                 <div class="card-body">
-                                    {{ $data->answer }}
+                                    <span itemprop="text">{{ $data->answer }} </span>
                                 </div>
                             </div>
                         </div>
