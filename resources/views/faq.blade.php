@@ -16,7 +16,7 @@
                     <div class="accordion" id="accordion" >
                     @foreach($datas as $data)
                         <!-- single accordion -->
-                        <div class="single-accordion card" itemscope itemtype="https://schema.org/Question">
+                        <div class="single-accordion card" itemprop="mainEntity"  itemscope itemtype="https://schema.org/Question">
                             <div class="card-header" id="headingFour">
                                 <h2 class="mb-0">
                                     <button class="btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne"> <span itemprop="name"> {{ $data->question}} </span> </button>
