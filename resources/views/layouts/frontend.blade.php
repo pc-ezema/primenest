@@ -39,6 +39,8 @@
    @includeIf('layouts.analytics')
    @includeIf('layouts.fb_pixel')
 
+   @includeIf('layouts.schema.organization')
+
 </head>
 <body>
 
@@ -48,6 +50,16 @@
     <div class="body-overlay" id="body-overlay"></div>
 
     <!-- navbar start -->
+    @section('site_navigation')
+    <ul class="navbar-nav menu-open" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+        <li><a href="/">Home</a></li>
+        <li itemprop="name"><a itemprop="url" href="/about-us">About Us</a></li>
+        <li itemprop="name"><a itemprop="url" href="/property">Properties</a></li>
+        <li itemprop="name"><a itemprop="url" href="/faq">FAQ</a></li>
+        <li itemprop="name"><a itemprop="url" href="/contact-us">Contact Us</a></li>
+        <li itemprop="name" style="visibility: hidden"><a itemprop="url" href="/application">Application Form</a></li>
+    </ul>
+    @endsection
     @includeIf("layouts.header")
     <!-- navbar end -->
 
