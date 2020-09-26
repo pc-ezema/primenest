@@ -2,7 +2,7 @@
     {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "Prime Nest Solutions",
+      "name": "Prime Nest",
       "alternateName": "Prime Nest Solutions",
       "url": "https://primenest.ng/",
       "logo": "https://primenest.ng/assets/img/primenest.png",
