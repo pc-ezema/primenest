@@ -12,7 +12,7 @@ class homepageController extends Controller
     public function index(){
 
         SEOTools::setTitle('Affordable and Elegant Housing in Nigeria');
-        SEOTools::setDescription('Experience real comfort and safety in our fully furnished, roomy bungalows with 24/7 CCTV surveillance');
+        SEOTools::setDescription('Experience real comfort and safety in our fully furnished, roomy bungalows, keeping in mind that your perimeter and general areas of your interior are under 24/7 CCTV surveillance.');
 
         $datas = \App\Repositories\Pick::getDatabase();
 
@@ -27,7 +27,7 @@ class homepageController extends Controller
     public function aboutUs(){
 
         SEOTools::setTitle('About Us');
-        SEOTools::setDescription('We are into property development, construction, and asset management, We provide real estate solutions that guarantee a sustainable lifestyle.');
+        SEOTools::setDescription('We are into property development, construction and asset management. We provide real estate solutions that guarantee a sustainable lifestyle. Your safety and convenience sit at the top of our priority list.');
 
         return view("about-us");
     }
@@ -35,7 +35,7 @@ class homepageController extends Controller
     public function property(){
 
         SEOTools::setTitle('Properties');
-        SEOTools::setDescription('With top-notch furnishing and finishing, each unit is superbly designed to accommodate your style.');
+        SEOTools::setDescription('Our mission is to provide stylish homes you won’t have to break the bank to own. With top-notch furnishing and finishing, each unit is superbly designed to accommodate your style.');
 
         $datas = \App\Repositories\Pick::getDatabase();
         return view("properties")->with('datas' , $datas);
@@ -52,7 +52,7 @@ class homepageController extends Controller
     public function faq(){
 
         SEOTools::setTitle('Frequently Asked Questions');
-        SEOTools::setDescription('Get answers to all your questions about our services, payment plans , housing location and policies');
+        SEOTools::setDescription('Get related answers to all your questions about our services, payment plans, apartment type, housing location and environmental benefits, documentation and policies here from our most frequently asked questions.');
         // SEOTools::opengraph()->addProperty('type', 'articles');
         // SEOTools::twitter()->setSite('@LuizVinicius73');
         // SEOTools::jsonLd()->addImage('https://codecasts.com.br/img/logo.jpg');
@@ -64,7 +64,7 @@ class homepageController extends Controller
     public function contactUs(){
 
         SEOTools::setTitle('Contact Us');
-        SEOTools::setDescription('Get in touch with us by sending us an email, we will get back to you as soon as possible. ');
+        SEOTools::setDescription('Get in touch with us today by sending us an email, one of our customer service representatives will get back to you as soon as possible. ');
 
         return view("contact-us");
     }
