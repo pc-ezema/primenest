@@ -36,7 +36,7 @@
                 <div class="col-xl-5 col-lg-6 offset-xl-1">
                     <div class="shape-image-list-wrap">
                         <div class="shape-image-list left-top">
-                            <img src="/assets/img/faq1.png" alt="img">
+                            <img src="/assets/img/faq1.png" alt="frequently asked questions" title="primenest frequently asked questions">
                         </div>
                     </div>
                 </div>

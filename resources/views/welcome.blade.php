@@ -65,7 +65,7 @@
                     <div class="row">
                         <div class="col-xl-6 col-lg-7">
                             <div class="thumb">
-                                <img src="/assets/img/hom.png" alt="img">
+                                <img src="/assets/img/hom.png" alt="LilyCourt Ajegunle Frontview" title="LilyCourt Ajegunle Frontview">
                             </div>
                         </div>
                         <div class="col-lg-6 align-self-end">
@@ -141,22 +141,22 @@
             <div class="row">
                 <div class="col-lg-7">
                     <div class="gallery-thumb">
-                        <img src="/assets/img/gal1.png" alt="img">
+                        <img src="/assets/img/gal1.png" alt="LilyCourt estate" title="LilyCourt estate">
                     </div>
                 </div>
                 <div class="col-lg-5">
                     <div class="gallery-thumb">
-                        <img src="/assets/img/gal2.png" alt="img">
+                        <img src="/assets/img/gal2.png" alt="Primenest Ifo Frontview" title="Primenest Ifo Frontview">
                     </div>
                     <div class="row">   
                         <div class="col-sm-7">  
                             <div class="gallery-thumb">
-                                <img src="/assets/img/gal3.png" alt="img">
+                                <img src="/assets/img/gal3.png" alt="LilyCourt estate Overview" title="LilyCourt estate Overview">
                             </div>    
                         </div>
                         <div class="col-sm-5">  
                             <div class="gallery-thumb">
-                                <img src="/assets/img/gal4.png" alt="img">
+                                <img src="/assets/img/gal4.png" alt="Primenest Sagamu" title="Primenest Sagamu">
                             </div>
                         </div>
                     </div>
@@ -236,7 +236,7 @@
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-5 align-self-center">
-                    <img src="/assets/img/afford.png" alt="img">
+                    <img src="/assets/img/afford.png" alt="Primenest estate fullview" title="Primenest estate fullview">
                 </div>
             </div>
         </div>
@@ -254,7 +254,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-feature">
                         <div class="thumb">
-                            <img src="{{ $data->featured_thumbnail }}" alt="img">
+                            <img src="{{ $data->featured_thumbnail }}" alt="{{ $data->img_alt }}" title="{{ $data->img_title }}">
                             <a href="#"><i class="fa fa-heart"></i></a>
                         </div>
                         <div class="details">

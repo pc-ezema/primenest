@@ -9,7 +9,7 @@
                     </button>
                 </div>
                 <div class="logo">
-                    <a href="/"><img src="/assets/img/primenestlogo.png" alt="logo"></a>
+                    <a href="/"><img src="/assets/img/primenestlogo.png" alt="primenest logo" title="prime nest logo"></a>
                 </div>
                 <div class="nav-right-part nav-right-part-mobile">
                     <a class="btn btn-yellow" href="/application">APPLICATION FORM <span class="right"><i class="la la-plus"></i></span></a>

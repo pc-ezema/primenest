@@ -56,7 +56,7 @@
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <div class="shape-image-list-wrap">
                         <div class="shape-image-list left-top">
-                            <img class="shadow-img" src="/assets/img/ab.png" alt="img">
+                            <img class="shadow-img" src="/assets/img/ab.png" alt="about us" title="primenest about us">
                         </div>
                     </div>
                 </div>

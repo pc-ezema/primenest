@@ -3,7 +3,7 @@
             <div class="footer-top">
                 <div class="row">
                     <div class="col-sm-4">
-                        <a class="footer-logo" href="#"><img src="assets/img/primenestlogo.png" alt="logo"></a>
+                        <a class="footer-logo" href="#"><img src="assets/img/primenestlogo.png" alt="prime nest logo" title="prime nest logo "></a>
                     </div>
                     <div class="col-sm-8">
                         <div class="footer-social text-sm-right">

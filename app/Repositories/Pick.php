@@ -31,6 +31,9 @@ class Pick{
             'price' => '6000000',
             'featured_thumbnail' => '/assets/img/3 1.png',
             'featured_image' => '/img/ifo1.png',
+            'img_alt' => 'bricks court abeokuta',
+            'img_title' => 'primenest bricks court abeokuta',
+
             
 
             'keypoint' => (object) [
@@ -72,6 +75,8 @@ class Pick{
             'price' => '6000000',
             'featured_thumbnail' => '/assets/img/3 2.png',
             'featured_image' => '/img/ifo2.png',
+            'img_alt' => 'bricks court sagamu',
+            'img_title' => 'primenest bricks court sagamu',
             
 
             'keypoint' => (object)[
@@ -113,6 +118,8 @@ class Pick{
             'price' => '12800000',
             'featured_thumbnail' => '/assets/img/lilo.png',
             'featured_image' => '/img/biglil.png',
+            'img_alt' => 'lilycourt ajegunle 2 bedroom',
+            'img_title' => 'lilycourt estate ajegunle 2 bedroom',
             
 
             'keypoint' => (object) [
@@ -156,6 +163,8 @@ class Pick{
             'price' => '14800000',
             'featured_thumbnail' => '/assets/img/lilo.png',
             'featured_image' => '/img/biglil.png',
+            'img_alt' => 'lilycourt ajegunle 3 bedroom',
+            'img_title' => 'lilycourt estate ajegunle 3 bedroom',
             
 
             'keypoint' => (object) [

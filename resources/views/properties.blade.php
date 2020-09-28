@@ -17,7 +17,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-feature">
                         <div class="thumb">
-                            <img src="{{ $data->featured_thumbnail }}" alt="img">
+                            <img src="{{ $data->featured_thumbnail }}" alt="{{ $data->img_alt }}" title="{{ $data->img_title }}">
                             <a href="#"><i class="fa fa-heart"></i></a>
                         </div>
                         <div class="details">
