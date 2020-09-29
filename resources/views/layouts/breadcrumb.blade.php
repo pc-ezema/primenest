@@ -15,7 +15,7 @@
     </div>
 
 
-    <div class="ttm-page-title-row" style="visibility: hidden">
+    <div class="ttm-page-title-row" style="display:none">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">

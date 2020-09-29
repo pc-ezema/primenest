@@ -57,7 +57,7 @@
         <li itemprop="name"><a itemprop="url" href="/property">Properties</a></li>
         <li itemprop="name"><a itemprop="url" href="/faq">FAQ</a></li>
         <li itemprop="name"><a itemprop="url" href="/contact-us">Contact Us</a></li>
-        <li itemprop="name" style="visibility: hidden"><a itemprop="url" href="/application">Application Form</a></li>
+        <li itemprop="name" style="display:none"><a itemprop="url" href="/application">Application Form</a></li>
     </ul>
     @endsection
     @includeIf("layouts.header")

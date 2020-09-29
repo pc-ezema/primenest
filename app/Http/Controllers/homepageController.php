@@ -64,7 +64,7 @@ class homepageController extends Controller
     public function contactUs(){
 
         SEOTools::setTitle('Contact Us');
-        SEOTools::setDescription('Get in touch with us today by sending us an email, one of our customer service representatives will get back to you as soon as possible. ');
+        SEOTools::setDescription('Get in touch with us today through our contact center via mail or through a phone call, our customer service representatives will get back and respond to you as soon as possible respectively.');
 
         return view("contact-us");
     }
@@ -72,7 +72,7 @@ class homepageController extends Controller
     public function application(){
 
         SEOTools::setTitle('Application Form');
-        SEOTools::setDescription('Fill in your data to apply for any of our housing property');
+        SEOTools::setDescription('Become a property owner! Choose from our well structured modern apartments which comes with a flexible payment plan, fill and submit your data and we will get in touch with you as soon as possible.');
 
         return view("application");
     }
