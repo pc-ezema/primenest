@@ -50,6 +50,22 @@ class FaqController extends Controller
 
     public function update(){
 
+        /**Sent in */
+        $id = request()->id;
+        $question = request()->question;
+        $answer = request()->answer;
+
+        /** Find and update */
+        $data = Faq::find($id);
+        $data->question =  $question;
+        $data->answer = $answer;
+        $data->save();
+
+
+        return response()->json(['message' => 'Update successfully']);
+
+
+
     }
 
     public function delete(){
