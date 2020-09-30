@@ -168,6 +168,7 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        Maatwebsite\Excel\ExcelServiceProvider::class,
         
 
         /*
@@ -243,6 +244,7 @@ return [
 
         'NoCaptcha' => Anhskohbo\NoCaptcha\Facades\NoCaptcha::class,
         'SEO' => Artesaos\SEOTools\Facades\SEOTools::class,
+        'Excel' => Maatwebsite\Excel\Facades\Excel::class,
 
     ],
 

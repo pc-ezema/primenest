@@ -32,5 +32,6 @@ Route::group([
     Route::any('/faq_create' , 'FaqController@create');
     Route::any('/faq_update' , 'FaqController@update');
     Route::any('/faq_delete' , 'FaqController@delete');
+    Route::any('/faq_export' , 'FaqController@exportable');
 
 });

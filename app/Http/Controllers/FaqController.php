@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Faq;
+use App\Exports\FaqExport;
+use Maatwebsite\Excel\Facades\Excel;
 
 class FaqController extends Controller
 {
@@ -57,7 +59,7 @@ class FaqController extends Controller
 
         /** Find and update */
         $data = Faq::find($id);
-        $data->question =  $question;
+        $data->question = $question;
         $data->answer = $answer;
         $data->save();
 
@@ -78,5 +80,9 @@ class FaqController extends Controller
         /** Return a json response object */
         return response()->json(['message' => 'Deleted Successfully']);
 
+    }
+
+    public function exportable(){
+        return Excel::download(new FaqExport, 'faq.xlsx');
     }
 }
