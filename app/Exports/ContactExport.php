@@ -14,8 +14,7 @@ class ContactExport implements FromCollection, WithHeadings
 
     public function collection()
     {
-        return
-         Contact::all();
+        return Contact::all();
     }
 
     public function headings(): array

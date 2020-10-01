@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 use App\Contact;
 use App\application_history;
+Use App\Faq;
 use Mail;
 use Illuminate\Http\Request;
 use Artesaos\SEOTools\Facades\SEOTools;
@@ -57,7 +58,7 @@ class homepageController extends Controller
         // SEOTools::twitter()->setSite('@LuizVinicius73');
         // SEOTools::jsonLd()->addImage('https://codecasts.com.br/img/logo.jpg');
 
-        $datas = \App\Repositories\Faq::getFaq();
+        $datas = Faq::all();
         return view("faq")->with('datas' , $datas);
     }
 
