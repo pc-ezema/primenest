@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-use App\contact_history;
+use App\Contact;
 use App\application_history;
 use Mail;
 use Illuminate\Http\Request;
@@ -89,7 +89,7 @@ class homepageController extends Controller
         ));
 
         /* store data into the database */
-        $db_data = new contact_history();
+        $db_data = new Contact();
         $db_data->fullname = request()->fullname;
         $db_data->email = request()->email;
         $db_data->phone = request()->phone;

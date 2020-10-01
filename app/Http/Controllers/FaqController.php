@@ -63,11 +63,7 @@ class FaqController extends Controller
         $data->answer = $answer;
         $data->save();
 
-
         return response()->json(['message' => 'Update successfully']);
-
-
-
     }
 
     public function delete(){
