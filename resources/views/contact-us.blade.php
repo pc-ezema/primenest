@@ -26,8 +26,8 @@
                         <div class="rld-single-input">
                             <input type="text" placeholder="Phone" name="phone">
                         </div>
-                        <div class="rld-single-select">
-                            <select class="select single-select" name="location">
+                        <div class="rld-single-select_1">
+                            <select class="select single-select_1" name="location">
                                 <option value=""> Preferred Location </option>
                               <option value="ibadan">Ibadan</option>
                               <option value="ifo ogun state">Ifo Ogun State</option>
