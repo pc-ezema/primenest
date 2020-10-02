@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Contact;
+use App\Location;
 use App\Exports\ContactExport;
 use Maatwebsite\Excel\Facades\Excel;
 
@@ -12,10 +13,17 @@ class ContactController extends Controller
     public function fetch(){
 
         $datas = Contact::all();
-       
+        $locations = Location::all()->pluck('name')->toArray();
         /** Return a json response object */
 
-        return response()->json(['message' => $datas]);
+        return response()->json(
+            [
+                'message' => $datas,
+                'dependencies' => array(
+                    'locations' => $locations
+                )
+            ]
+        );
 
     }
 
@@ -60,4 +68,6 @@ class ContactController extends Controller
     public function exportable(){
         return Excel::download(new ContactExport, 'contact.xlsx');
     }
+
+  
 }
