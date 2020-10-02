@@ -11,37 +11,11 @@ class ContactController extends Controller
 {
     public function fetch(){
 
-        /** Incoming request */
-        // $id = request()->id;
-
-        // if($id){
-        //     $datas = Contact::where('id' , $id)->get();
-        // }
-
-        // else{
-            $datas = Contact::all();
-        // }
-
-        /** Create a collection instance */
-        $result = collect();
-
-        /** Loop through the data and Push it into the result collection */
-        foreach($datas as $data){
-
-            $result->push([
-                'id' => $data->id,
-                'name' => $data->fullname,
-                'email' => $data->email,
-                'phone' => $data->phone,
-                'message' => $data->message,
-                'location' => $data->location,
-
-            ]);
-        }
-
+        $datas = Contact::all();
+       
         /** Return a json response object */
 
-        return response()->json(['message' => $result]);
+        return response()->json(['message' => $datas]);
 
     }
 

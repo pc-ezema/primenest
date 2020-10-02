@@ -2500,7 +2500,7 @@ ul {
       border: 1px solid var(--main-color-one); }
 
 .rld-single-select .single-select {
-  /* margin-top: 10px; */
+  margin-top: 10px;
   background-color: #f9fafa;
   height: 48px;
   line-height: 47px;
