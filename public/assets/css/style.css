@@ -2501,6 +2501,7 @@ ul {
 
 .rld-single-select .single-select {
   margin-top: 10px;
+  /* margin-bottom: 10px; */
   background-color: #f9fafa;
   height: 48px;
   line-height: 47px;
@@ -2514,21 +2515,10 @@ ul {
   position: relative;
   border-radius: 4px;}
 
-  .rld-single-select_1 .single-select_1 {
-    margin-top: 10px;
-    margin-bottom: 4px;
-    background-color: #f9fafa;
-    height: 48px;
-    line-height: 47px;
-    width: 100%;
-    padding: 0 34px 0 20px;
-    border: 1px solid #D4D4D4;
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    -o-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-    position: relative;
-    border-radius: 4px; }
+  .adjustment {
+    margin-bottom: 10px;
+    background: #F3F3F3 !important;
+  }
 
   .rld-single-select .single-select:hover, .rld-single-select .single-select:active, .rld-single-select .single-select:focus {
     border: 1px solid var(--main-color-one); }

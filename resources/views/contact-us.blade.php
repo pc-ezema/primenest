@@ -26,17 +26,19 @@
                         <div class="rld-single-input">
                             <input type="text" placeholder="Phone" name="phone">
                         </div>
-                        <div class="rld-single-select_1">
-                            <select class="select single-select_1" name="location">
-                                <option value=""> Preferred Location </option>
+                        <div class="rld-single-select">
+                            
+                          <select class="select single-select adjustment" name="location">
+                              <option> Preferred Location </option>
                               <option value="ibadan">Ibadan</option>
                               <option value="ifo ogun state">Ifo Ogun State</option>
                               <option value="waterman ogun state">Waterman Ogun State</option>
                               <option value="iseyin oyo state">Iseyin Oyo State</option>
                           </select>
+                          <br>
                         </div>
                         <div class="rld-single-input">
-                            <input type="text" placeholder="Email" name="email">
+                            <input type="email" placeholder="Email" name="email">
                         </div>
                         <div class="rld-single-input">
                             <textarea rows="10" placeholder="Message" name="message"></textarea>
