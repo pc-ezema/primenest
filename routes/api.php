@@ -39,5 +39,10 @@ Route::group([
     Route::any('/contact_delete' , 'ContactController@delete');
     Route::any('/contact_export' , 'ContactController@exportable');
 
+    Route::any('/application_fetch' , 'ApplicationController@fetch');
+    Route::any('/application_update' , 'ApplicationController@update');
+    Route::any('/application_delete' , 'ApplicationController@delete');
+    Route::any('/application_export' , 'ApplicationController@exportable');
+
 
 });
